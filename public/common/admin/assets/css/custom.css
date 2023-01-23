@@ -1,0 +1,169 @@
+*==========================end banner==================================*/
+.fixed_widgets {
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    position: sticky;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px -5px #000;
+    box-shadow: 0 0 10px -5px #000;
+	margin-bottom: 30px;
+	visibility: hidden;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  visibility: visible;
+}
+.fixed_box span {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 14px;
+    padding: 0 20px;
+    position: relative
+}
+
+.fixed_box span::after {
+    content: "";
+    background: #ccc;
+    width: 1px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -20px
+}
+
+.fixed_box span:nth-child(1):after,
+.fixed_box span:nth-child(5):after {
+    display: none
+}
+
+.fixed_box {
+    margin: 0 auto;
+    display: block;
+    text-align: left
+}
+
+.fixed_box span i {
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.fixed_box span {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 14px;
+    padding: 0 20px;
+    position: relative;
+}
+.pListing-resList {
+    box-shadow: 0 3px 7px 0 #ccc;
+    padding: 0 30px 30px;
+    background: #fff;
+    border: 1px solid #eee;
+}
+.mnprice h5 {
+    font-size: 22px;
+    color: #e67329;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+.mnprice del {
+    color: #ccc;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.pcntents h5 {
+    color: #0f42b8;
+}
+.pcntents p {
+    font-size: 12px;
+}
+.pListing-resList {
+	position: relative;
+}
+.saveOff {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    background: url("../img/off-strip.png") right no-repeat;
+    height: 36px;
+    width: 115px;
+    position: absolute;
+    top: 15px;
+    right: -5px;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 32px;
+}
+.mnprice {
+    margin-top: 15px;
+}
+.pproce li {
+    width: 100%;
+}
+.pproce a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 9px 0;
+    margin-bottom: 8px;
+}
+.cb_box {
+    background: #ff4141;
+    width: 20%;
+}
+.cb_box_inner, .ct_box_inner, .dq_box_inner, .en_box_inner, .in_box_inner {
+    display: table;
+    width: 100%;
+}
+.fixed_box {
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+}
+.en_box_inner {
+    position: relative;
+}
+.en_box_inner p {
+    position: absolute;
+    font-size: 9px;
+    right: -25px;
+    color: #fff;
+    top: 12px;
+    padding: 0 5px;
+    line-height: 18px;
+    background: red;
+    border-radius: 5px;
+}
+.fixed_box a {
+    display: block;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+.cb_box_inner a {
+    color: #fff!important;
+}
+.in_box_inner a {
+    color: #ff585c;
+}
+.en_box_inner a {
+    display: inline;
+    padding: 7px 35px 7px 10px;
+    border-radius: 0;
+    background: #645ff9;
+    color: #fff;
+    -webkit-box-shadow: 0 3px 10px -8px #000;
+    -moz-box-shadow: 0 3px 10px -8px #000;
+    box-shadow: 0 3px 10px -8px #000;
+    font-size: 12px;
+}
