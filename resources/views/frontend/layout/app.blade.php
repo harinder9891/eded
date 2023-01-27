@@ -9,5 +9,6 @@
                 @include('frontend.layout.footer')
         <!--Foot Links-->
         @include('frontend.layout.foot-links')
+        @include('frontend.layout.script')
     </body>
 </html>

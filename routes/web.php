@@ -15,6 +15,13 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', [App\Http\Controllers\Frontend\IndexController::class, 'index']);
+Route::get('/portfolio', [App\Http\Controllers\Frontend\IndexController::class, 'portfolio']);
+Route::get('/web-d', [App\Http\Controllers\Frontend\IndexController::class, 'webpage']);
+Route::get('/bussiness-consultation-services', [App\Http\Controllers\Frontend\IndexController::class, 'bc']);
+Route::get('/digital-marketing-services', [App\Http\Controllers\Frontend\IndexController::class, 'digitmarket']);
+Route::get('/who-we-are', [App\Http\Controllers\Frontend\IndexController::class, 'whoweare']);
+Route::post('savemaildata', [App\Http\Controllers\Frontend\IndexController::class, 'savemaildata']);
+Route::get('/thank-you', [App\Http\Controllers\Frontend\IndexController::class, 'thankyou']);
 Route::get('products/{slug?}', [App\Http\Controllers\Frontend\IndexController::class, 'products']);
 Route::get('contact-us', [App\Http\Controllers\Frontend\IndexController::class, 'contactUs']);
 Route::get('enquiry/{slug?}', [App\Http\Controllers\Frontend\IndexController::class, 'enquiry']);

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Mail\Enquiry;
 use App\Models\Course;
+use App\Models\FooterFormData;
 use App\Models\Category;
 use App\Models\RelatedClass;
 use Illuminate\Http\Request;
@@ -14,14 +15,80 @@ class IndexController extends Controller
 {
     public function index()
     {
-        $latestCourse = Course::latest()->limit(12)->where('status','1')->get();
-        $course = Course::where('status','1')->get();
-        $popular = RelatedClass::where('type','popular')->get();
-        $categories = Category::where('status','1')->get();
-        $categoriesWithCourses = Category::with('course')->paginate(20);
-        return view('frontend.index',compact('course','latestCourse','popular','categories','categoriesWithCourses'));
+        // $latestCourse = Course::latest()->limit(12)->where('status','1')->get();
+        // $course = Course::where('status','1')->get();
+        // $popular = RelatedClass::where('type','popular')->get();
+        // $categories = Category::where('status','1')->get();
+        // $categoriesWithCourses = Category::with('course')->paginate(20);
+        return view('frontend.index');
+    }
+  
+    public function portfolio()
+    {
+        // $latestCourse = Course::latest()->limit(12)->where('status','1')->get();
+        // $course = Course::where('status','1')->get();
+        // $popular = RelatedClass::where('type','popular')->get();
+        // $categories = Category::where('status','1')->get();
+        // $categoriesWithCourses = Category::with('course')->paginate(20);
+        return view('frontend.portfolio');
+    }
+  
+    public function webpage()
+    {
+        // $latestCourse = Course::latest()->limit(12)->where('status','1')->get();
+        // $course = Course::where('status','1')->get();
+        // $popular = RelatedClass::where('type','popular')->get();
+        // $categories = Category::where('status','1')->get();
+        // $categoriesWithCourses = Category::with('course')->paginate(20);
+        return view('frontend.web-d');
+    }
+    public function bc()
+    {
+        // $latestCourse = Course::latest()->limit(12)->where('status','1')->get();
+        // $course = Course::where('status','1')->get();
+        // $popular = RelatedClass::where('type','popular')->get();
+        // $categories = Category::where('status','1')->get();
+        // $categoriesWithCourses = Category::with('course')->paginate(20);
+        return view('frontend.business-consultation');
+    }
+    public function digitmarket()
+    {
+        // $latestCourse = Course::latest()->limit(12)->where('status','1')->get();
+        // $course = Course::where('status','1')->get();
+        // $popular = RelatedClass::where('type','popular')->get();
+        // $categories = Category::where('status','1')->get();
+        // $categoriesWithCourses = Category::with('course')->paginate(20);
+        return view('frontend.digital-marketing');
+    }
+    public function whoweare()
+    {
+        // $latestCourse = Course::latest()->limit(12)->where('status','1')->get();
+        // $course = Course::where('status','1')->get();
+        // $popular = RelatedClass::where('type','popular')->get();
+        // $categories = Category::where('status','1')->get();
+        // $categoriesWithCourses = Category::with('course')->paginate(20);
+        return view('frontend.who-we-are');
     }
 
+    public function savemaildata(Request $request){
+        $formdata = FooterFormData::create([
+         
+        'email'=> $request->email,
+        'phone'=> $request->phone,
+        'message'=> $request->message,
+        'service'=> $request->service,
+        'budget'=> $request->budget,
+        'pagename'=> $request->pagename,
+        ]);
+
+        $id = $formdata->id;
+
+return 1;
+
+    }
+    public function thankyou(){
+        return redirect('/');
+    }
     public function categories($slug = null)
     {
         if (!is_null($slug)) {

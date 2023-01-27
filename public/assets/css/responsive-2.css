@@ -1,0 +1,23 @@
+@media screen and (max-width:767px){
+      /* ------  who-we-are page ------ */
+    
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px){
+   
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1600px){
+
+/* ------  who-we-are page ------ */
+.our_team p { padding: 2rem 2rem;}
+/* ------ End  who-we-are page ------ */
+}

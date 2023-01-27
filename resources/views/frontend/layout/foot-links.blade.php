@@ -1,22 +1,6 @@
-<script src="{{asset('common/assets/js/jquery.js')}}"></script>
-    <script src="{{asset('common/assets/js/popper.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/imagesloaded.pkgd.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/jquery.validate.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/theia-sticky-sidebar.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/ResizeSensor.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/swiper.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/pagepilling.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/jarallax.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/masonry.pkgd.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/jquery.fitvids.js')}}"></script>
-    <script src="{{asset('common/assets/js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/simple-scrollbar.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/scrolla.jquery.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/wan-spinner.js')}}"></script>
-    <script src="{{asset('common/assets/js/jquery.nice-select.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/kinetic.js')}}"></script>
-    <script src="{{asset('common/assets/js/jquery.final-countdown.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/datepicker.min.js')}}"></script>
-    <script src="{{asset('common/assets/js/main.js')}}"></script><!-- main-js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="{{asset('assets/js/slick.js')}}" type="text/javascript" charset="utf-8"></script>
+
+  <script src="https://masterinfotech.com/assets/js/intlTelInput.js?<?php echo time(); ?>"></script>

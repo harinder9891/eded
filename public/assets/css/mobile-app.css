@@ -1,0 +1,1171 @@
+
+/*------------------anroid-app----------------*/
+section#anroid-app {
+    padding: 0px;
+}
+.and-app {
+    padding: 6rem 0px;
+    text-align: center;
+}
+.inside-text {
+    display: flex;
+    width: 25%;
+    box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow:11px 18px 50px rgba(0, 0, 0, 0.12);
+    padding: 25px;
+    border: 1px solid #cfcfcf;
+    align-items: center;
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+.round p {
+    font-size: 35px;
+    color: #f05123;
+    font-weight: 500;
+    background-color: white;
+    padding: 7px 22px;
+    border-radius: 70px;
+    border: 1px solid #f05123;
+    margin-left: -60px;
+}
+.inside-text:hover .round p {
+    background-color: #ef5123;
+    color: #fff;
+}
+.inside-text p {
+    text-align: start;
+}
+.round {
+    padding-right: 22px;
+}
+.mid-app-sec {
+    display: flex;
+    justify-content: space-around;
+}
+.and-app h2 {
+    width: 70%;
+    margin: 20px auto;
+}
+.and-app .and-txt  {
+    width: 70%;
+    margin: 10px auto;
+    color: #7a7a7a;
+}
+
+/*-----------------third-section---------------*/
+
+/*----------------android-need-section---------------*/
+
+.need-inner h2 {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+#android-need {
+    padding: 4rem 0rem;
+}
+.need-text-box p {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin: 10px auto;
+    color: #7b7b7b;
+}
+.need-text-box {
+    box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow:11px 18px 50px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    width: 80%;
+    margin: 0px auto;
+	padding: 20px;
+	background-color: #fff;
+}
+.back-orange {
+    background-color: #ffa98e;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+	transition: .5s ease;
+}
+.full-sec-need {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0rem;
+}
+.full-sec-need:hover .back-orange {
+    background-color: #f05123;
+}
+
+/*----------------figurecss---------------------*/
+
+figure.snip1110 h2 {
+    margin: 15px 0px;
+    font-weight: 600;
+    padding: 10px 0px;
+    display: flex;
+}
+figure.snip1110 h3 span {
+  font-weight: 800;
+}
+figure.snip1110 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    text-align: justify;
+}
+figcaption h4 a {
+    text-decoration: none;
+    color: #303030;
+    border: 1px solid #303030;
+    padding: 4px 10px;
+    font-weight: 500;
+}
+figcaption h4 {
+    margin-top: 30px;
+}
+section#product h2 {
+    margin: 0px auto;
+}
+section#product {
+    padding:var(--main-pad);
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+
+.slide-phone{
+    display:flex;
+    justify-content:space-between;
+}
+.slide-phone figcaption{
+    padding:5rem 0rem;
+    width:40%;
+}
+.phone-2{
+    flex-direction:row-reverse;
+}
+/*---------------end-figurecss---------------------*/
+
+/*----------------workflow---------------------*/
+
+#workflow{
+    padding:var(--main-pad);
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+.workflow-img-part {
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+}
+.workflow-img-part img {
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    transition: all .7s ease;
+    width: 100%;
+    display: flex;
+	transform: scale(1.1);
+}
+.workflow-iner-box:hover img {
+    transform: scale(1.0);
+    
+}
+.workflow-text-part {
+   padding: 20px 5rem;
+   width: 50%;
+}
+.workflow-text-part h2 {
+    padding-bottom: 30px;
+}
+.workflow-iner-box {
+    display: flex;
+    align-items: center;
+    box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow:11px 18px 50px rgba(0, 0, 0, 0.12);
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.workflow-text-part h4 {
+    margin-top: 40px;
+}
+.workflow-iner-box.container {
+    padding: 0px;
+}
+/*---------------end-workflow---------------------*/
+
+/*---------------tech-two-section---------------------*/
+
+
+.tech-two-part {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+#tech-main-sec {
+    padding: 3rem 0rem 8rem;
+}
+.left-side-tech {
+    width: 50%;
+    box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow:11px 18px 50px rgba(0, 0, 0, 0.12);
+    border-radius: 50px;
+    overflow: hidden;
+	margin: 20px 40px 0px 0px;
+}
+.right-side-tech {
+    width: 50%;
+    box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow:11px 18px 50px rgba(0, 0, 0, 0.12);
+    border-radius: 50px;
+    overflow: hidden;
+	margin: 20px 0px 0px 40px;
+}
+.text-tech {
+    padding: 30px 50px;
+    text-align: center;
+}
+.tech-img img {
+    width: 100%;
+}
+.text-tech h3 {
+    padding-bottom: 20px;
+}
+/*--------------end-tech-two-section---------------------*/
+
+/*--------------bulb-section---------------------*/
+.full-bulb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow:11px 18px 50px rgba(0, 0, 0, 0.12);
+    padding: 0px 20px;
+    border-radius: 70px;
+}
+.blub-text h4 {
+    padding-top: 30px;
+}
+section#bulb {
+    padding: var(--main-pad);
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+.blub-text {
+    padding: 0px 40px;
+}
+.blub-text p {
+    width: 75%;
+}
+.bulb-img {
+    padding-right: 40px;
+}
+
+/*-------------end-bulb-section---------------------*/
+
+/*-------------faq-section---------------------*/
+
+#faq-sec{
+    padding:var(--main-pad);
+}
+button.btn.btn-link.plus-faq {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.card-faq-first {
+    box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow:11px 18px 50px rgba(0, 0, 0, 0.12);
+    margin: 40px 0px;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+button.btn.btn-link.plus-faq {
+    color: #303030;
+    font-weight: 600;
+    font-size: 18px;
+	text-decoration: none;
+	text-align: left;
+}
+button.btn.btn-link.plus-faq:hover {
+    text-decoration: none;
+}
+.faq-section-full h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+button.btn.btn-link.plus-faq i {
+    color: #f05123;
+    font-size: 22px;
+}
+.rotate {
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.rotate.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(45deg);
+}
+
+/*-------------end-faq-section---------------------*/
+
+/*-------------------------------------------------------mobile-app-development--------------------------------------------------*/
+
+.second-sec {
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+	padding-bottom:30px;
+}
+.second-sec h2 {
+    width: 60%;
+	 margin: 10px auto;
+}
+.mobile-offer .text-part-relly {
+    /* padding: 20px 40px 20px 40px; */
+    /* width: 62%; */
+}
+.need-text-box.hvr-big {
+    width: 55%;
+    margin: 0px auto;
+    padding: 40px 10px;
+    text-align: center;
+	transition: .5s ease;
+}
+.need-inner.mobile .back-orange {
+    background-color: #f05123;
+    width: 300px;
+    height: 300px;
+}
+.full-sec-need:hover .back-orange {
+     width: 400px;
+    height: 400px;
+}
+.full-sec-need:hover .need-text-box.hvr-big {
+    width: 99%;
+}
+.need-inner.mobile h4 {
+    margin: 40px 0px 20px 0px;
+}
+h2.mobile-bringing,h5.mobile-bringing {
+    color: #f05123 !important;
+}
+.bringing li ,.text-part-relly li {
+    font-size: 16px;
+    color: #7b7b7b;
+    padding: 10px 0px;
+    font-weight: 500;
+}
+
+.iner-box.hover-effect:hover .line.box hr {
+    border-right: 1px solid #f05123;
+    border-left: 1px solid #f05123;
+    transform: scaleX(1.6);
+    border-top: transparent;
+    width: 520px;
+    background-color: #f05123;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 144px;
+    transition: all .5s;
+}
+.line.box hr {
+    height: 400px;
+    border-right: 2px solid #f05123;
+    border-left: 1px solid #f05123;
+    transition: transform .7s ease;
+    opacity: 1;
+}
+figcaption h5 {
+    text-align: left;
+    margin: 0px;
+    color: #f05123;
+}
+.two-img-mobile.container img {
+    width: 34%;
+}
+.two-img-mobile.container {
+    padding: 60px 0px;
+}
+section#mobile-app {
+    text-align: center;
+    padding: var(--main-pad);
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+#mobile-app .round {
+    padding-right: 22px;
+    border-right: 1px solid #c7c7c7;
+}
+#mobile-app .inside-text {
+    display: flex;
+    width: 30%;
+    box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow:11px 18px 50px rgba(0, 0, 0, 0.12);
+    padding: 10px 0px 10px 10px;
+    border: none;
+    align-items: center;
+    margin: 25px 0px;
+    border-radius: 10px;
+}
+#mobile-app .inside-text p {
+    padding: 18px;
+    font-size: 20px;
+    color: #303030;
+    font-weight: 600;
+}
+#mobile-app .mid-app-sec {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+#mobile-app .inside-text:hover .back-hover {
+    width: 70%;
+    background-color: #f05123;
+    margin: 0px 0px 0px 20px;
+    transition: .5s ease-in-out;
+   
+}
+.back-hover {
+    width: 70%;
+    margin: 0px 0px 0px 20px;
+	transition: .5s ease-in-out;
+	border-radius: 10px 0px 0px 10px;
+}
+#mobile-app .inside-text:hover .back-hover p {
+   color:#fff;
+}
+#mobile-app .round {
+    width: 30%;
+}
+#mobile-app .round img {
+    width: 70%;
+}
+.inner-cre {
+    display: flex;
+    justify-content: space-between;
+	 box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow:11px 18px 50px rgba(0, 0, 0, 0.12);
+	padding: 20px;
+	margin: 50px 0px;
+	border-radius: 15px;
+}
+.inner-cre:hover {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.data-credible {
+    width: 25%;
+    padding: 10px 28px;
+}
+.cre-mobile h2 {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+section#credible hr {
+    width: 1px;
+    height: 210px;
+}
+.logo-heading-cre {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo-heading-cre img {
+    width: 70px;
+    padding: 14px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 50%;
+}
+.logo-heading-cre h4 {
+    font-size: 18px;
+    margin: 0px;
+}
+.data-credible p {
+    font-size: 14px;
+}
+.data-credible:hover .logo-heading-cre img {
+    box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+}
+.two-img-mobile.container h2 {
+    text-align: center;
+    padding-bottom: 40px !important;
+}
+.credency {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.credency h2.left-side-sec {
+    width: 44%;
+    box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+    padding: 40px 50px !important;
+    border-radius: 10px;
+}
+.iner-heading-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px 70px;
+}
+.in-btw-line hr {
+    height: 200px;
+    width: 2px;
+}
+.in-btw-line {
+    padding: 0px 20px;
+}
+h2.cre-heading {
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+}
+h2.left-side-sec span {
+    color: #f05123;
+}
+.credency.container {
+    padding-top: 3rem;
+}
+section#credency {
+  padding:var(--main-pad);
+  padding-top:5rem;
+  padding-bottom:5rem;
+}
+
+<<<<<<< HEAD
+=======
+/*--------------------media query--------------------------*/
+
+
+@media screen and (max-width: 768px) {
+.two-img-mobile.container img ,.credency h2.left-side-sec,h2.cre-heading,.iner-heading-data,.text-part-relly,.data-credible,.need-inner h2,.left-side-tech,.slide-phone figcaption, .cre-mobile h2 ,
+.second-sec h2,.blub-text p,.right-side,.left-side,section#banner-head .right-side,section#banner-head .left-side,.right-side img,.and-app .and-txt,.and-app h2,.bulb-img img ,.img-part-relly img{ 
+    width: 100%;
+}	
+.left-side {padding: 0px 40px;}	
+section#banner-head .right-side { margin: -50px 0px 0px;}	
+section#banner-head .left-side {
+   padding: 0px 20px 0px 20px;
+}		
+#android-page h1 {
+    font-size: 46px;
+}
+#android-page h2 {
+    font-size: 26px;
+}
+#android-page h3 {
+    font-size: 22px;
+}
+.bringing li, .text-part-relly li,figure.snip1110 p {
+    font-size: 14px;
+}	
+.left-side {
+    padding: 0px 30px;
+}
+.line hr,.slide-phone img {
+display:none;
+}	
+.slide-phone figcaption {
+    padding: 1rem 0rem;}
+#border_block, section#credible,section#credency {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+.ban-file {
+    padding: 0rem 0rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.left-side p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.btn-header {
+    margin-top: 40px;
+}
+.and-app {
+    padding: 2rem 20px;
+    text-align: left;
+}
+.and-app h2 {
+    margin: 20px auto;
+}
+.inside-text {
+    display: flex;
+    width: 28%;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0px;
+}
+.round {
+    padding-right: 10px;
+}
+.round p {
+    padding: 11px 11px;
+    margin-left: -37px;
+	font-size: 35px !important;
+}
+section#border_block {
+   padding: 2rem 20px;
+}
+.img-part-relly img {
+    padding: 0px 0px 20px 0px;
+    transition: none;
+    position: initial;
+    transform-origin: 0%;
+}
+.iner-box {
+    flex-direction: column-reverse;
+}
+.workflow-iner-box,.iner-box.hover-effect  {
+    flex-direction: column;
+    display: flex;
+}
+.workflow-img-part img {
+    padding: 20px 0px 20px 0px;
+    transition: none;
+    position: initial;
+    transform-origin: 0%;
+    width: 100%;
+}
+.blub-text {
+    padding: 0px 20px;
+}
+.text-part {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+.text-part h2 {
+    padding-bottom: 10px;
+}
+#android-need {
+    padding: 3rem 20px;
+}
+.full-sec-need {
+    padding: 5rem 0rem;
+}
+.need-text-box p {
+    padding: 0px;
+}
+.back-orange {
+    width: 380px;
+    height: 380px;
+}
+.need-text-box {
+    width: 90%;
+}
+.workflow-img-part img {
+    padding: 0px 0px 20px 0px;
+}
+#workflow {
+    padding: 2rem 20px;
+}
+.workflow-text-part {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+	padding-top: 30px;
+}
+.workflow-text-part h4 {
+    margin-top: 20px;
+}
+.tech-two-part {
+    display: block;
+}
+#tech-main-sec {
+    padding: 2rem 20px 2rem;
+}
+.left-side-tech {
+    margin: 20px 0px 50px 0px;
+}
+.right-side-tech {
+    width: 100%;
+	margin: 20px 0px 0px 0px;
+}
+section#bulb {
+    padding: 2rem 20px;
+}
+.full-bulb {
+    padding: 30px 0px 30px 10px;
+    border-radius: 50px;
+}
+.ye h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+#faq-sec img {
+    width: 20px;
+}
+#faq-sec .item {
+    padding: 30px 20px;
+    margin: 15px 20px;
+}
+
+.left-side p {
+    padding-top: 10px;
+}
+.left-side .button {
+    margin-top: 20px;
+}
+/*----mobile-----*/
+.second-sec h2 {
+    margin: 10px auto;width:100%;
+}
+.mobile-offer .text-part-relly {
+    padding: 20px 20px 20px 20px;
+}
+#mobile-app .inside-text p {
+    padding: 0px;
+    font-size: 14px;
+}
+#mobile-app .inside-text {
+    width: 47%;
+    margin: 6px 3px;
+}
+#mobile-app .round {
+    padding-right: 2px;
+}
+.experence h5 {
+    padding: 20px 0px 0px 0px;
+}
+.inner-cre ,.credency {
+    flex-wrap: wrap;
+}
+.data-credible {
+    padding: 10px 10px;
+}
+.cre-mobile hr {
+    display: none;
+}
+.need-text-box.hvr-big {
+    width: 95%;
+    padding: 20px 10px;
+}
+.need-text-box.hvr-big h2 {
+    text-align: center;
+}
+.text-part-relly {
+    padding: 30px 20px 30px 20px;
+}
+.credency h2.left-side-sec {
+    font-size:22px !important;
+    padding: 1rem !important;
+}
+.iner-heading-data {
+    margin: 0px 0px;
+	align-items: flex-start;
+}
+.iner-heading-data h4 {
+    font-size: 16px;
+	line-height: 20px;
+}
+.iner-heading-data p {
+    font-size: 12px;
+    line-height: 18px;
+}
+.final-iner-data {
+    padding: 20px 0px;
+}
+.in-btw-line {
+    padding: 0px 10px;
+}
+.back-hover {
+    padding: 5px;
+}
+.slide-phone ,.full-bulb{
+    display: block;
+
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+			
+#android-page h1 {
+    font-size: 46px;
+}
+#android-page h2 {
+    font-size: 32px;
+    line-height: 42px;
+}
+#android-page h3 {
+    font-size: 28px;
+    line-height: 32px;
+}
+.left-side {
+    padding: 0px 30px;
+}
+.ban-file {
+    padding: 0rem 0rem 0rem 2rem;
+    display: flex;
+    align-items: center;
+}
+.left-side p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.right-side img {
+    width: 100%;
+}
+.btn-header {
+    margin-top: 40px;
+}
+.and-app {
+    padding: 2rem 20px;
+    text-align: left;
+}
+.and-app .and-txt {
+    width: 100%;
+}
+.and-app h2 {
+    width: 100%;
+    margin: 20px auto;
+}
+.credency h2.left-side-sec {
+    font-size: 24px !important;
+    padding: 30px 30px !important;
+}
+.data-credible {
+    width: 48%;}
+    section#credible hr {
+        display:none;
+    }
+.inner-cre {
+    flex-wrap: wrap;}
+.inside-text {
+    display: flex;
+    width: 28%;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0px;
+}
+.round {
+    padding-right: 10px;
+}
+.round p {
+    padding: 11px 11px;
+    margin-left: -37px;
+}
+.img-part-relly img {
+    padding: 0px 0px 20px 0px;
+    transition: none;
+    position: initial;
+    transform-origin: 0%;
+    width: 100%;
+}
+
+.workflow-img-part img {
+    padding: 20px 0px 20px 0px;
+    transition: none;
+    position: initial;
+    transform-origin: 0%;
+    width: 100%;
+}
+.blub-text {
+    padding: 0px 20px;
+}
+.bulb-img img {
+    width: 100%;
+}
+.slide-phone figcaption {
+    width: 50%;
+}
+.slide-phone img {
+    width: 45%;
+}
+.text-part {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+.text-part h2 {
+    padding-bottom: 10px;
+}
+#android-need {
+    padding: 3rem 20px;
+}
+.need-inner h2 {
+    width: 100%;
+}
+.full-sec-need {
+    padding: 5rem 0rem;
+}
+.need-text-box p {
+    padding: 0px;
+}
+.back-orange {
+    width: 380px;
+    height: 380px;
+}
+.need-text-box {
+    width: 100%;
+}
+.workflow-img-part img {
+    padding: 0px 0px 20px 0px;
+}
+.workflow-text-part {
+    padding: 50px 40px; 
+}
+.workflow-text-part h4 {
+    margin-top: 20px;
+}
+.tech-two-part {
+    display: block;
+}
+#tech-main-sec {
+    padding: 2rem 20px 2rem;
+}
+.left-side-tech {
+    width: 100%;
+    margin: 20px 0px 50px 0px;
+}
+.right-side-tech {
+    width: 100%;
+	margin: 20px 0px 0px 0px;
+}
+
+.two-img-mobile.container {
+    padding: 0px 0px;
+}
+.full-bulb {
+    padding: 30px 0px 30px 10px;
+    border-radius: 50px;
+}
+.blub-text p {
+    width: 100%;
+}
+.ye h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+#faq-sec img {
+    width: 20px;
+}
+#faq-sec .item {
+    padding: 30px 20px;
+    margin: 15px 20px;
+}
+.left-side .button {
+    margin-top: 20px;
+}
+.left-side p {
+    padding-top: 10px;
+}
+
+figure.snip1110 h3 {
+    margin: 5px 0px;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+	figure.snip1110 p {
+    font-size: 12px;
+}
+
+.two-img-mobile.container h2 {
+    text-align: center;
+    padding-bottom: 0px !important;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+	
+	
+#android-page h1 {
+    font-size: 45px;
+}
+#android-page h2 {
+    font-size: 32px;
+}
+.text-part-relly {
+    padding: 20px 10px 20px 20px;
+    width: 100%;
+}
+.left-side {
+    padding: 0px 30px;
+    width: 53%;
+}
+.left-side p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+figure.snip1110 h3 {
+    margin: 10px 0px;
+    padding: 10px 10px;
+    font-size: 14px;
+}	
+figure.snip1110 p {
+    font-size: 14px;
+}
+
+.left-side {
+    padding: 0px 50px;
+}	
+.ban-file {
+    padding: 0rem 0rem 0rem 6rem;
+}
+.left-side {
+    padding: 20px 50px;
+    width: 70%;
+}
+.right-side ,.right-side img,h2.cre-heading,.blub-text p ,.str-wearable h2  {
+    width: 100%;
+}
+section#banner-head {
+    height: auto;
+}
+.inside-text {
+    width: 28%;
+	padding: 18px;
+	margin: 20px 0px;
+}
+.text-part h2 {
+    padding-bottom: 2px;
+}
+.text-part {
+    padding-left: 30px;
+    padding-right: 10px;
+    width: 100%;
+}
+#android-need {
+    padding: 2rem 0rem;
+}
+.workflow-text-part {
+    padding: 20px 10px 20px 10px;
+}
+.left-side-tech {
+    width: 50%;
+    margin: 20px 10px 0px 0px;
+}
+.right-side-tech {
+    width: 50%;
+    margin: 20px 0px 0px 10px;
+}
+.text-tech {
+    padding: 20px 20px;
+    text-align: center;
+}
+#tech-main-sec {
+    padding: 3rem 0rem 2rem;
+}
+.blub-text {
+    padding: 0px 10px;
+}
+.bulb-img {
+    padding-right: 10px;
+}
+.ye h4 {
+    font-size: 22px;
+}
+section#anroid-app {
+    padding: 2rem 20px;
+}	
+.round p {
+    padding: 16px 15px;
+	margin-left: -44px;
+}
+.line hr ,section#credible hr{ display:none;
+}
+.text-tech { padding: 20px;
+}
+.iner-heading-data {
+    width: 82%;
+    margin: 0px 40px;
+}
+.credency h2.left-side-sec {
+    width: 50%;
+    padding: 26px 26px !important;
+}
+.need-inner h2 {
+    width: 70%;
+}
+.data-credible {
+    width: 45%;
+}
+.inner-cre {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text-part-relly li {
+    font-size: 13px;
+    padding: 4px 0px;
+}
+.mobile-offer .text-part-relly {
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+}
+.text-part-relly ul {
+    padding: 0rem 19px;
+}
+.need-text-box.hvr-big {
+    width: 65%;
+}
+.second-sec h2 {
+    width: 75%;
+}
+}
+
+@media screen  and (min-width: 1200px)  and (max-width: 1366px) {	
+
+.tech-two-part.container { padding: 0px 35px;}	
+#android-page h1 {font-size: 45px;}
+#android-page h2 { font-size: 35px;}
+.text-part-relly { padding: 0px 10px 0px 20px;width: 100%;}
+.left-side { padding: 0px 30px; width: 53%;}
+.left-side p { font-size: 16px; line-height: 22px;}
+figure.snip1110 h3 { margin: 10px 0px; padding: 10px 10px; font-size: 14px;}	
+figure.snip1110 p {font-size: 14px;}
+.left-side {padding: 0px 50px;}	
+.ban-file { padding: 0rem 0rem 0rem 8rem;}
+.left-side { padding: 0px 50px;width: 50%;}
+.right-side { width: 70%;}
+section#banner-head {  height: auto;}
+.inside-text { width: 28%;padding: 18px;margin: 20px 0px;}
+.text-part h2 { padding-bottom: 2px;}
+.text-part { padding-left: 30px; padding-right: 10px;}
+.iner-box { padding: 0px 0px; margin: 0px 20px;}
+.workflow-text-part { padding: 0px 10px 0px 20px;}
+.workflow-iner-box { padding: 0px 0px;}
+.left-side-tech { width: 50%; margin: 20px 20px 0px 0px;}
+.right-side-tech { width: 50%;margin: 20px 0px 0px 20px;}
+.text-tech {padding: 20px 20px;text-align: center;}
+#tech-main-sec { padding: 3rem 0rem 2rem;}
+.blub-text p,.text-part ,.right-side img { width: 100%;}
+.blub-text {padding: 0px 10px;}
+.bulb-img {padding-right: 10px;}
+.ye h4 {font-size: 22px;}
+section#anroid-app {padding: 2rem 20px;}
+.round p { padding: 16px 15px;margin-left: -44px;}
+.full-bulb {border-radius: 50px;}
+.slide-phone img{width:38%;}
+   
+}
+
+@media screen  and (min-width: 1366px)  and (max-width: 1600px) {	
+.first-part {padding: 17rem 14rem 16rem 3rem;background-position: center;}
+.first-part h1 {font-size: 50px;line-height: 68px;}
+section#application h2 { font-size: 34px; width: 70%;}
+.for-flex { justify-content: space-between;padding-top: 60px;}
+.block-data h3 {line-height: 23px;padding: 30px 0px 14px; width: 90%;}
+.block-data { width: 20%; padding: 20px; margin: 30px 20px; height: 30vh;}
+section#application {padding: 8rem 0px 4rem;}
+.gif-part {top: 18%;}
+.ban-file {padding: 0rem 0rem 0rem 8rem;}
+section#banner-head { margin-bottom: 150px;}
+section#banner-head { height: auto;}
+.faq-section-full.container {  padding: 0px 30px 70px;}
+.round p { padding: 16px ;margin-left: -52px;}
+}
+>>>>>>> b4ab1e81286ee7432f97e9e9cebfe4fdc38fde2c

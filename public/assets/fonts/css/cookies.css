@@ -1,0 +1,101 @@
+
+.cookie-bar {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    border-radius: 0.2em;
+    z-index: 9999;
+    left: 0;
+    background: #f05454;
+    padding: 10px 0px;
+    color: #fff;
+}
+.cookie-bar .cookie-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.cookie-bar .cookie-box .cookies-left {
+    width: 65%;
+}
+.cookies-left h4{
+	font-size:22px;
+}
+.cookies-left p{
+	font-size:15px;
+}
+.cookie-bar .container-fluid {
+    padding: 0px 6%;
+}
+.cookie-bar .cookie-box .buttons-keys {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.cookie-bar .cookie-box .buttons-keys button {}
+.cookie-bar .cookie-box .buttons-keys button {
+    border: solid 1px #ffffff;
+    padding: 5px 42px;
+    border-radius: 50px;
+    margin-left: 20px;
+    color: #ffff;
+    font-size: 15px;
+}
+.cookie-bar .cookie-box .buttons-keys button:last-child {
+    background: #ffff;
+    color: #f05454;
+}  
+  
+	@media only screen and (max-width : 767px){
+	.cookies-left p {
+    font-size: 14px;
+}
+.cookies-left h4 {
+    font-size: 20px;
+}
+.cookie-bar .cookie-box .cookies-left{
+	width:100%;
+}
+.cookie-bar .cookie-box .buttons-keys{
+  width:100%;
+  justify-content:space-between;
+	}
+	.cookie-bar .cookie-box .buttons-keys button {
+    border: solid 1px #ffffff;
+    padding: 9px 42px;
+    border-radius: 50px;
+    margin-left: 0px;
+    color: #ffff;
+    font-size: 15px;
+}
+	}
+	
+	
+	@media screen and (min-width:768px) and (max-width:1024px){
+		.cookies-left p {
+    font-size: 14px;
+}
+.cookies-left h4 {
+    font-size: 20px;
+}
+.cookie-bar .cookie-box .cookies-left{
+	width:100%;
+}
+.cookie-bar .cookie-box .buttons-keys{
+  width:100%;
+  justify-content:flex-start;
+	}
+	.cookie-bar .cookie-box .buttons-keys button {
+    border: solid 1px #ffffff;
+    padding: 9px 42px;
+    border-radius: 50px;
+    margin-left: 0px;
+    color: #ffff;
+    font-size: 15px;
+}
+	#acceptCookie{
+		margin-right:25px;
+	}
+	}

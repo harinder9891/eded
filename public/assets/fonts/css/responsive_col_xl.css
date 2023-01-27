@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+.tra-img {
+    max-width: 100%; 
+    border-radius: 242px 0px 0px 242px;
+}
+.training-text {
+    padding: 10% 0% 0% 10%;
+}
+.trning {
+    background-color: #F05454;
+    color: #fff;
+    position: relative;
+    padding: 55px 0px 46px 0px;
+}
+.w-culture {
+    position: absolute;
+    top: 34%;
+    left: 33%;
+    background-position-x: right;
+    z-index: 99;
+    height: 520px;
+    width: 520px;
+    border-radius: 50%;
+    background-color: #30475E;
+    text-align: center;
+    padding: 15% 0px;
+    color: #fff;
+}
+}

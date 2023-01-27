@@ -1,136 +1,106 @@
        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             Start SITE FOOTER
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <footer class="site-footer footer-default-style">
-            <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                Start Instagram Widget Area
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-            <div class="instagram-widget-area">
-                <div class="container-fluid pd-l-0 pd-r-0">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="widget bt-instafeed-widget">
-                                <ul id="instafeed">
-                                    <li class="feed-item">
-                                        <a href="#">
-                                            <img src="{{('/common/assets/images/widget/instagram/2/img1.jpg')}}" alt="#">
-                                        </a>
-                                    </li>
-                                    <li class="feed-item">
-                                        <a href="#">
-                                            <img src="{{('/common/assets/images/widget/instagram/2/img2.jpg')}}" alt="#">
-                                        </a>
-                                    </li>
-                                    <li class="feed-item">
-                                        <a href="#">
-                                            <img src="{{('/common/assets/images/widget/instagram/2/img3.jpg')}}" alt="#">
-                                        </a>
-                                    </li>
-                                    <li class="feed-item">
-                                        <a href="#">
-                                            <img src="{{('/common/assets/images/widget/instagram/2/img4.jpg')}}" alt="#">
-                                        </a>
-                                    </li>
-                                    <li class="feed-item">
-                                        <a href="#">
-                                            <img src="{{('/common/assets/images/widget/instagram/2/img5.jpg')}}" alt="#">
-                                        </a>
-                                    </li>
-                                    <li class="feed-item">
-                                        <a href="#">
-                                            <img src="{{('/common/assets/images/widget/instagram/2/img6.jpg')}}" alt="#">
-                                        </a>
-                                    </li>
-                                    <li class="feed-item">
-                                        <a href="#">
-                                            <img src="{{('/common/assets/images/widget/instagram/2/img7.jpg')}}" alt="#">
-                                        </a>
-                                    </li>
-                                    <li class="feed-item">
-                                        <a href="#">
-                                            <img src="{{('/common/assets/images/widget/instagram/2/img8.jpg')}}" alt="#">
-                                        </a>
-                                    </li>
-                                </ul>
-                                <div class="instafeed-heading">
-                                    <span class="fab fa-instagram"></span>
-                                </div>
-                                <!--/.instafeed-heading-->
-                            </div>
-                            <!--/.widget-instafeed-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--~./ end instagram widget area ~-->
+        
+  <footer>
+   @include('frontend.layout.footform')
+    <div class="footer-sec-cont">
+      <div class="footer-sec">
+        <div>
+          <ul>
+            <li>Contact</li>
+            <li><a href="tel:+91 74000 18000">+91 74000 18000</a></li>
+            <li><a href="tel:+1 (718) 514-2776">+(718) 514-2776</a></li>
+            <li><a href="mailto:info@masterinfotech.com">Info@masterinfotech.com</a></li>
+          </ul>
+          <ul>
+            <li>INDIA</li>
+            <li>Plot no 169 Sector 82 JLPL, Mohali Punjab, INDIA</li>
+          </ul>
+          <ul>
+            <li>USA</li>
+            <li>3rd floor, 30 W 47th St #301, Etech7, Newyork, UNITED STATES</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Menu</li>
+            <li><a href="{{url('home')}}">Home</a></li>
+            <li><a href="{{url('portfolio')}}">Portfolio</a></li>
+            <li><a href="{{url('services')}}">Our Services</a></li>
+            <li><a href="{{url('blog')}}">Blogs</a></li>
+            <li><a href="{{url('career')}}">Careers</a></li>
+            <li><a href="{{url('contact-us')}}">Get a Quote</a></li>
+            <li><a href="{{url('contact-us')}}">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <ul>
+              <li>Services</li>
+              <li><a href="">Blockchain </a></li>
+              <li><a href="">Mobile App Development</a></li>
+              <li><a href="{{url('web-d')}}">Website Development</a></li>
+              <li><a href="">UI/Ux Design</a></li>
+              <li><a href="">E-Commerce</a></li>
+              <li><a href="">Digital Marketing</a></li>
+              <li><a href="">Business Consulation</a></li>
+              <li><a href="">Brand Identity Design</a></li>
+              <li><a href="">Training and Internship</a></li>
+            </ul>
+          </ul>
+        </div>
+        <div class="follow">
+          <ul>
+            <li>About</li>
+            <li><a href="{{url('who-we-are')}}">Who we are</a></li>
+            <li><a href="{{url('who-we-are#ourvision')}}">Our Vision</a></li>
+            <li><a href="{{url('who-we-are#ourvalue')}}">Our Value</a></li>
+            <li><a href="{{url('write-for-us')}}">Write for Us</a></li>
+          </ul>
+          <ul>
+            <li>Follow us</li>
+            <li>
+              <ul>
+                <li><a href="https://www.facebook.com/masterinfotech/"><img src="{{asset('assets/images/facebook-ftr.png')}}"></a>
+                </li>
+                <li><a href="https://twitter.com/masterinfotech_"><img src="{{asset('assets/images/twitter-ftr.png')}}"></a></li>
+                <li><a href="https://www.instagram.com/masterinfotechofficial/"><img
+                      src="{{asset('assets/images/instagram-ftr.png')}}"></a></li>
+                <li><a href="https://www.linkedin.com/company/master-infotechofficial/"><img
+                      src="{{asset('assets/images/linkedin-ftr.png')}}"></a></li>
+                <li><a
+                    href="https://www.behance.net/ab941400?tracking_source=search_users_recommended%7Cmaster%20infotech"><img
+                      src="{{asset('assets/images/behance-ftr.png')}}"></a></li>
+                <li><a href="https://dribbble.com/MasterInfotechOfficial"><img src="{{asset('assets/images/dribble-ftr.png')}}"></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="newsletter-div">
+          <ul>
+            <li>Newsletter</li>
+            <li>Signup for Freshly Brewed Update</li>
+            <li>
+              <div class="news-input"><input type="text" placeholder="Your email address">
+                <button class=""> Subscribe</button>
+              </div>
+            </li>
+          </ul>
+          <div>
+            <img src="{{asset('assets/images/clutch2.png')}}">
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div> © Copyrights 20221-2022. <a href="#"> Masterinfotech </a> | All Rights Reserved </div>
 
-            <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                Start Footer Widget Area
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-            <div class="footer-widget-area bg-soft-black ptb-100">
-                <div class="container ml-b-60">
-                    <div class="row justify-content-between">
-                        <!--~~~~~ Start Widget About Footer ~~~~~-->
-                        <div class="col-lg-6">
-                            <aside class="widget bt-about-footer-widget">
-                                <div class="widget-content">
-                                    <div class="about-logo">
-                                        <a href="index.html"><img src="{{('/common/assets/images/logo/footer-logo.png')}}"
-                                                alt="Logo"></a>
-                                    </div>
-                                    <div class="about-info">
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of </p>
-                                        <div class="social-status">
-                                            <a href="#"><span class="fab fa-facebook-f"></span></a>
-                                            <a href="#"><span class="fab fa-twitter"></span></a>
-                                            <a href="#"><span class="fab fa-google-plus-g"></span></a>
-                                            <a href="#"><span class="fab fa-behance"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </aside>
-                        </div>
-                        <!--~./ end about footer widget ~-->
+        <a href="{{url('privacy-policy')}}">Privacy Policy</a>
+        <a href="{{url('terms-condition')}}">Term and Condition</a>
+      </div>
+    </div>
+  </footer>
 
-                        <!--~~~~~ Start Widget Links ~~~~~-->
-                        <div class="col-lg-2">
-                            <aside class="widget widget_links">
-                                <div class="widget-content">
-                                    <ul>
-                                        <li><a href="#">CAREER</a></li>
-                                        <li><a href="#">FIND US</a></li>
-                                        <li><a href="#">PRIVACY POLICY</a></li>
-                                        <li><a href="#">ERMS OF USE</a></li>
-                                    </ul>
-                                </div>
-                            </aside>
-                        </div>
-                        <!--~./ end links widget ~-->
 
-                        <!--~~~~~ Start Subscribe Widget~~~~~-->
-                        <div class="col-lg-4">
-                            <aside class="widget tb-subscribe-widget">
-                                <h2 class="widget-title"><span>Subscribe</span> Today</h2>
-                                <div class="widget-content">
-                                    <div class="subscribe-form">
-                                        <!-- Subscribe form -->
-                                        <form class="dv-form" id="mc-form" action="https://miraclestudio.design/html/deliciousa-html/subscription.php" method="post">
-                                            <div class="form-group">
-                                                <input id="mc-email" name="EMAIL" placeholder="Enter Your Email Address"
-                                                    type="email">
-                                            </div>
-                                            <button class="btn" name="Subscribe" id="subscribe-btn" type="submit"><span
-                                                    class="fa fa-paper-plane"></span></button>
-                                            <p><span>*</span> We Don't Use The Spam</p>
-                                        </form>
-                                    </div>
-                                </div>
-                            </aside>
-                        </div>
-                        <!--~./ end subscribe widget ~-->
-                    </div>
-                </div>
-            </div>
-            <!--~./ end footer widgets area ~-->
-        </footer>
         <!--~./ end site footer ~-->

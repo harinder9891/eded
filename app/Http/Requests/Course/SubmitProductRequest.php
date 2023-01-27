@@ -24,14 +24,11 @@ class SubmitProductRequest extends FormRequest
     public function rules()
     {
         return [
-            'title' => 'required',
+            'member_name' => 'required',
             'image' => 'required|mimes:jpg,jpeg,svg,png',
-            'description' => 'required',
-            'seo_title' => 'required|numeric',
-            'summary' => 'required',
-            'keywords' => 'required',
-            'slug' => 'required',
-            'extra_seo' => 'required',
+            'designation' => 'required',
+            'about' => 'required',
+          
         ];
     }
 }

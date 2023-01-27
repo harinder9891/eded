@@ -50,14 +50,23 @@
 
 							</ul>
 						</li>
-						<!-- <li class="slide">
-							<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-folder"></i><span class="side-menu__label">Reviews</span><i class="angle fa fa-angle-right"></i></a>
+						 <li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-folder"></i><span class="side-menu__label">Jobs</span><i class="angle fa fa-angle-right"></i></a>
 							<ul class="slide-menu">
-								<li><a class="slide-item" href={{url('admin/reviews')}}>All Reviews</a></li>
-								<li><a class="slide-item" href={{url('admin/reviews/create')}}>Add Review</a></li>
+								<li><a class="slide-item" href={{url('admin/jobs')}}>All Jobs</a></li>
+								<li><a class="slide-item" href={{url('admin/jobs/create')}}>Add Jobs</a></li>
 
 							</ul>
-						</li> -->
+						</li> 
+						</li>
+						 <li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fe fe-folder"></i><span class="side-menu__label">Team Members</span><i class="angle fa fa-angle-right"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href={{url('admin/team')}}>All Team</a></li>
+								<li><a class="slide-item" href={{url('admin/team/create')}}>Add Team Members</a></li>
+
+							</ul>
+						</li> 
 						<li class="slide">
 						<a class="side-menu__item" href="{{url('admin/enquiries')}}"><i class="side-menu__icon fe fe-folder"></i><span class="side-menu__label">Enquiries</span></a>
 						</li>

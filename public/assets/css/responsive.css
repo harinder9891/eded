@@ -1,0 +1,1794 @@
+
+@media only screen and (max-width: 767px){
+	
+	:root {
+    --main-pad: 0rem 1rem;
+}
+h1{
+    font-size:40px;}
+ h2{
+    font-size: 26px;}
+ h3{
+     font-size:18px; }
+ h4{
+     font-size:16px;}
+ p{
+   font-size: 14px;  }
+ .slick-next{
+    right:5px !important;}
+ .slick-next::before, .slick-prev::before{
+    font-size:12px !important;
+    padding: 2px 3px !important;
+ }
+ .slick-prev{
+    left:0px !important;
+    z-index:10;
+ }
+ .banner-home {
+    background-position:center;
+ }
+ .title {
+    padding: 1rem 0rem 1rem;}
+    .img-leve-wear p {
+      font-size:14px !important;
+      margin-top: -10px;
+    }
+    #port-slider .ani-img img {
+        width: 20%;
+    }
+.ele-left,.ele-right {
+    display:none;}
+.home-sec {
+    padding: 4rem 0rem 2rem;
+}
+.serv-dev-list li{
+    width:40%;
+}
+.serv-dev-list{
+    width:100% !important;
+    display:flex;
+    justify-content:space-between;
+}
+.banner-home p {
+    font-size: 16px;}
+ .banner-home>div {
+    padding-top: 16rem;
+}
+.banner-slider .slick-arrow:before {
+    line-height: 10px;}
+.home-sec-back {
+    OPACITY:0;}
+    .home-sec ,.banner-home p,.banner-home>div,.services-sec>div,.st-growing>div:first-child ,#mag-sec .title>div h2 ,.plat-list, #mag-sec .title>div p,.mag-cont ,.data-inside .cate_info,.icons-leve-wear {
+        width: 100%;}
+.services-sec>div {
+    padding:1rem;
+    margin-bottom: 1.5rem;}
+
+.services-sec>div p {
+    padding: 0.5rem 0rem;
+}
+.serv-dev ul li {
+    padding:  0.1rem 0rem; 
+    column-gap:0.4rem;
+}
+.serv-dev{
+    column-gap:0rem;
+}
+#client-sec .slick-slide{
+    margin:0;
+}
+.serv-dev img{
+    width:80%;
+}
+.serv-para {
+    height: auto;
+}
+.main-btn,.services-butn a ,.mag-cont h3 ,.plat-list ul li ,.st-growing a, .cate_info a{
+    font-size: 14px;
+}
+.services-butn {
+    padding-top: 2rem;
+}
+.service-last {
+    margin: 0rem ;
+    display:block;
+}
+.service-last .serv-dev ,.st-growing{
+     padding: 0rem; 
+}
+.st-growing>div:first-child {
+    padding: 2rem 1rem;
+}
+.st-growing ,.plat-list>div,.plat-forms{
+    display:block;}
+.ele-go {
+    display: none;
+}
+.service-last{
+    text-align:left;
+}
+.service-last .services-hd{
+    justify-content:normal;
+}
+#mag-sec {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.serv-dev ul ,.mag-cont>div img, #leverage .tabs .label-3  {
+    width: 40%;
+}
+.serv-dev,   .client-cont>div,.mag-cont{
+  flex-wrap:wrap;
+}
+.mag-cont {
+    padding:1rem;
+    PADDING-RIGHT: 1REM;
+}
+.mag-cont>div {
+    width:47%;
+    padding:0.5rem;
+    margin-bottom:1rem;
+    border:1px solid var(--orange);
+}
+.home-sec h2{
+    width:90%;
+}
+.mag-cont>div img {
+    filter: grayscale(0);
+}   
+.client-cont{
+    padding-top:1rem;
+    padding-bottom:2rem;
+}
+.client-part {
+    width: 112px;
+    padding: 0.2rem;
+    margin-bottom:0.7rem;}
+.client-part .cl-img img {
+    padding: 10px;}
+.client-part h4 {
+    font-size: 12px;}
+.plat-cont h2 {
+    width: 100% !important;
+    padding: 0rem;
+}
+.plat-cont h4 {
+    font-size: 16px;
+}
+.vision{
+    padding:10px 15px;
+}
+.plat-cont {
+    padding: 1rem;
+    width: 95%; 
+}
+.plat-list>div {
+    margin-top:1rem;
+    padding:1rem;
+    margin-bottom:0rem !important;}
+
+.plat-form2{
+    padding-top:1rem;
+    padding-bottom:2rem;
+}
+.slick-initialized .banner-slide {
+    padding: 1rem;}
+.banner-slide .container>div>div {
+    width: 100%;
+    padding: 1rem;
+}
+.banner-slider .slick-arrow.slick-next {
+    top: 45%;
+    right: 1rem !important;
+}
+.banner-slider .slick-arrow.slick-prev {
+    top: 45%;
+    left: 1rem !important;
+}
+.banner-wrap {
+    height: 100%;}
+.banner-slider .ani-img>div,.ani-img,.hero-btn{
+    display:flex;
+    justify-content:center;
+}
+.banner-slider .slick-arrow { 
+    height: 25px;
+    width:25px;}
+.hero-content {
+    display: block; 
+    height: 580px;}
+.tabs {
+    padding: 1rem 0.5rem 2rem;
+    column-gap: 1.2rem;
+    justify-content:normal;
+}
+#leverage .data-inside {
+    flex-direction: column-reverse;
+    height: 100%;
+    padding-top:1rem;
+}
+#leverage .tabs > label {
+    font-size:14px;
+    width:22.5%;
+    text-align:left;
+}
+.data-inside .cate_info p {
+    padding-bottom: 2rem;
+}
+.data-inside .cate_info,.icons-leve-wear,.hero-content h2 ,.hero-content p {
+    text-align: center;
+}
+.img-leve-wear img {
+    width:75px;
+    padding: 15px;
+    filter:grayscale(0);}
+.icons-leve-wear {
+    column-gap: 0rem;
+    row-gap: 0rem;
+}
+.img-leve-wear {
+    width: 80px;
+    height: 80px;}
+
+.hero-content h2 {
+    padding-top: 1rem;
+    font-size: 16px;
+}
+.hero-content p {
+    padding: 0.5rem 0rem;
+}
+section#leverage {
+    padding-top: 0rem;
+    padding-bottom:3rem;
+}
+.list-img .fa{
+    font-size: 12px;
+}
+.cl-list {
+    justify-content: center;
+    column-gap: .6rem;    margin: 30px 0px;
+}
+.list-img {
+    flex-direction: row;}
+.list-img img{
+    width:50%;}
+
+.cl-list img {
+    width: 47%;
+    padding: 0px 12px;
+}
+.cl-list p {
+    width: 49%; font-size: 14px;
+}
+#platforms,#magnify {
+    padding-top:0rem;
+    padding-bottom:0rem;
+}
+#platforms .plat-cont h2 {
+    font-size: 20px;
+}
+#platforms .plat-cont h2 span {
+    font-size: 24px;
+}
+#platforms .plat-cont {
+    padding: 1rem;
+} 
+.plat-cont h3 {
+    font-size: 18px;
+}
+#client-sec {
+    padding: 3rem 0rem 0rem 0rem;
+}
+#start-grow {
+    padding-bottom: 0rem; 
+}
+#port-slider {
+    margin-top:0rem;
+    margin-bottom: 0rem; 
+}
+.slick-slide h3{
+    font-size:14px; padding:1rem 0rem 0rem !important;
+}
+.test-para{
+    padding:0rem 0rem 1rem;
+}
+#masters .slick-slide p,.slick-slide p{
+    font-size:14px !important;
+}
+.indus-list {
+    padding: 10px;   
+}
+.slick-dots li button{
+    opacity:0;
+}
+.indus-list .text{
+    padding: 10px;
+    text-align:center;
+}
+#indus-sec{
+    padding-bottom:1rem;
+}
+#masters{
+    padding-top:0rem;
+    padding-bottom:1rem;
+}
+#testimonial .slick-list {
+    padding: 1rem 0.5rem 2rem;}
+#testimonial .indus-list {
+    padding: 10px;
+    height:410px;}
+#testimonial { padding-top:4rem;  padding-bottom:2rem;}
+
+
+/* ------  who-we-are page ------ */
+.whowe-sec p ,.our-value-block p {font-size:14px; }
+.whowe-sec ,.our-value-sec { display: block;   padding:0rem;}
+.whowe-text h1 { font-size: 40px;}
+.whowe-text ,.whowe-text-one,.our-value-left,.our-value-block ,.our-value-right {  width: 100%;  padding-right: 0%;  padding-left: 0%; }
+.whowe-img img { padding-top:2rem;}
+.section-whowe { padding: 5rem 0rem 0rem; }
+.our-value-block { padding: 10px 0;  }
+.our-value-right { padding: 20px 0px 0px; }
+.whowe-hr { width: 100%; height: 5px;}
+.section-whowe-one h2,.whowe-title h2{font-size:28px;}
+.whowe-img-one { display: none;}
+.our-value { padding: 2rem 0rem 0rem; }
+.our-value-left h3 { font-size: 18px !important;text-align:left; }
+.our-value-block h5 { font-size: 16px;}
+.vision-img { position: relative; top: 15px; width: 100%;  right: 0; }
+.our_team img { position: static;   z-index: 0;  width: 100%; padding-top: 2rem; }
+.our_team p { background: rgb(0 0 0 / 0%); width: 100%; color: #303030; z-index: 0; padding: 0rem 0rem; transform: translate(0, 0); font-size: 14px;}
+.our_team { margin: 1rem 0rem;}
+.our-gteam{padding: 2rem 0rem;}
+    /* ------ End  who-we-are page ------ */
+
+
+
+/* ----- portfolio ------- */
+.port_folio {  column-gap: 1rem;   row-gap: 1rem;}
+#port-part {  padding-top: 2rem;}
+#myBtnContainer { padding: 0rem 0px 1.5rem;}
+#myBtnContainer .btn {
+    padding: 8px 3px; font-size: 14px;   margin: 0px 4px;}
+.column { width: 100%;}
+.column .content {    margin-bottom: 1rem;}
+.bottom-text b { font-size: 17px;}
+.bottom-text {    font-size: 15px;}
+.overlays {   height: 64%;}
+.read-more-btn {   top: 4rem;}
+.read-more-btn a {  padding: 8px 20px;   border: solid 1px white;}
+/* ----- end portfolio ------- */
+
+/* ----- website design page ------- */
+.service_baner{   padding: var(--main-pad);   height: auto;}
+ .full_service_baner {   padding: var(--main-pad);   height: auto;}
+.service_block {    flex-direction: column;}
+.service_block div:first-child { width: 100%;}
+.service_block h1 {font-size: 30px; padding: 0rem 1rem 0rem 0rem;}
+.service_block p {  padding: 1rem 1rem 1rem 0rem; }
+.service_block div img { width: 100%;  padding-top: 2rem;}
+.web-dev-list {padding-top: 4rem;padding-bottom: 1rem;row-gap: 2rem;}
+.web-d-type { padding: 2rem; width: 100%;}
+
+.web-d-type h2 {font-size: 22px;padding: 1.5rem 0rem;}
+/* ----- end website design ------- */
+/*mobile app development*/
+.two-img-mobile.container img ,.sub-heading h2.left-side-sec,h2.cre-heading,.iner-heading-data,.text-part-relly,.data-credible,.need-inner h2,.left-side-tech,.slide-phone figcaption, .cre-mobile h2 ,
+.second-sec h2,.blub-text p,.right-side,.left-side,section#banner-head .right-side,section#banner-head .left-side,.right-side img,.and-app .and-txt,.and-app h2,.bulb-img img ,.img-part-relly img{ 
+    width: 100%;
+}	
+.left-side {padding: 0px 40px;}	
+section#banner-head .right-side { margin: -50px 0px 0px;}	
+section#banner-head .left-side {
+   padding: 0px 20px 0px 20px;
+}		
+#android-page h1 {
+    font-size: 46px;
+}
+#android-page h2 {
+    font-size: 26px;
+}
+#android-page h3 {
+    font-size: 22px;
+}
+.bringing li, .text-part-relly li,figure.snip1110 p {
+    font-size: 14px;
+}	
+.left-side {
+    padding: 0px 30px;
+}
+.line hr,.slide-phone img {
+display:none;
+}	
+.slide-phone figcaption {
+    padding: 1rem 0rem;}
+#really, section#credible,section#credency {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+.ban-file {
+    padding: 0rem 0rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.left-side p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.btn-header {
+    margin-top: 40px;
+}
+.and-app {
+    padding: 2rem 20px;
+    text-align: left;
+}
+.and-app h2 {
+    margin: 20px auto;
+}
+.inside-text {
+    display: flex;
+    width: 28%;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0px;
+}
+.round {
+    padding-right: 10px;
+}
+.round p {
+    padding: 11px 11px;
+    margin-left: -37px;
+	font-size: 35px !important;
+}
+section#really {
+   padding: 2rem 20px;
+}
+.img-part-relly img {
+    padding: 0px 0px 20px 0px;
+    transition: none;
+    position: initial;
+    transform-origin: 0%;
+}
+.iner-box {
+    flex-direction: column-reverse;
+}
+.workflow-iner-box,.iner-box.hover-effect  {
+    flex-direction: column;
+    display: flex;
+}
+.workflow-img-part img {
+    padding: 20px 0px 20px 0px;
+    transition: none;
+    position: initial;
+    transform-origin: 0%;
+    width: 100%;
+}
+.blub-text {
+    padding: 0px 20px;
+}
+.text-part {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+.text-part h2 {
+    padding-bottom: 10px;
+}
+#android-need {
+    padding: 3rem 20px;
+}
+.full-sec-need {
+    padding: 5rem 0rem;
+}
+.need-text-box p {
+    padding: 0px;
+}
+.back-orange {
+    width: 380px;
+    height: 380px;
+}
+.need-text-box {
+    width: 90%;
+}
+.workflow-img-part img {
+    padding: 0px 0px 20px 0px;
+}
+#workflow {
+    padding: 2rem 20px;
+}
+.workflow-text-part {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+	padding-top: 30px;
+}
+.workflow-text-part h4 {
+    margin-top: 20px;
+}
+.tech-two-part {
+    display: block;
+}
+#tech-main-sec {
+    padding: 2rem 20px 2rem;
+}
+.left-side-tech {
+    margin: 20px 0px 50px 0px;
+}
+.right-side-tech {
+    width: 100%;
+	margin: 20px 0px 0px 0px;
+}
+section#bulb {
+    padding: 2rem 20px;
+}
+.full-bulb {
+    padding: 30px 0px 30px 10px;
+    border-radius: 50px;
+}
+.ye h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+#faq-sec img {
+    width: 20px;
+}
+#faq-sec .item {
+    padding: 30px 20px;
+    margin: 15px 20px;
+}
+
+.left-side p {
+    padding-top: 10px;
+}
+.left-side .button {
+    margin-top: 20px;
+}
+/*----mobile-----*/
+.second-sec h2 {
+    margin: 10px auto;width:100%;
+}
+.mobile-offer .text-part-relly {
+    padding: 20px 20px 20px 20px;
+}
+#mobile-app .inside-text p {
+    padding: 0px;
+    font-size: 14px;
+}
+#mobile-app .inside-text {
+    width: 47%;
+    margin: 6px 3px;
+}
+#mobile-app .round {
+    padding-right: 2px;
+}
+.experence h5 {
+    padding: 20px 0px 0px 0px;
+}
+.inner-cre ,.sub-heading {
+    flex-wrap: wrap;
+}
+.data-credible {
+    padding: 10px 10px;
+}
+.cre-mobile hr {
+    display: none;
+}
+.need-text-box.hvr-big {
+    width: 95%;
+    padding: 20px 10px;
+}
+.need-text-box.hvr-big h2 {
+    text-align: center;
+}
+.text-part-relly {
+    padding: 30px 20px 30px 20px;
+}
+.sub-heading h2.left-side-sec {
+    font-size:22px !important;
+    padding: 1rem !important;
+}
+.iner-heading-data {
+    margin: 0px 0px;
+	align-items: flex-start;
+}
+.iner-heading-data h4 {
+    font-size: 16px;
+	line-height: 20px;
+}
+.iner-heading-data p {
+    font-size: 12px;
+    line-height: 18px;
+}
+.final-iner-data {
+    padding: 20px 0px;
+}
+.in-btw-line {
+    padding: 0px 10px;
+}
+.back-hover {
+    padding: 5px;
+}
+.slide-phone ,.full-bulb{
+    display: block;
+
+}
+/*digital-marketing*/
+ .digital-web img.digi-img {
+    height: 120px;
+    width: 120px;}
+/* business-consultation */
+.business-consultation { flex-direction:column-reverse; padding-bottom: 3rem;}
+.business-baner.service_baner .service_block h1 { padding: 2rem 0rem 2rem 0rem;}
+.business-baner img { top: 45%;width: 95%;position:static;margin-top:2rem;border-radius:30px;}
+.business-baner.service_baner .service_block {padding: 1rem 0rem;}
+.busi-info h2 { font-size: 24px;}
+.business-baner.service_baner .service_block p { width: 100%;  }
+.busi-info,.business-consultation .busi-img{width:100%;padding-top:1rem;}
+.busi-info{ padding:0;}
+.business-reflect{flex-direction:column;}
+.business-content{padding-top:3rem;}
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	:root {
+    --main-pad: 0rem 2rem;
+}
+h1{
+    font-size:60px;
+ }
+ h2{
+    font-size: 29px;
+ }
+ h3{
+     font-size:18px;
+ }
+ h4{
+     font-size:16px;
+ }
+ p{
+   font-size: 14px;
+ }
+ .slick-next{
+    right:0px !important;
+ }
+ .slick-prev{
+    left:-15px !important;
+    z-index:10;
+ }
+ .slick-prev:before, .slick-next:before {
+    font-size: 18px !important;
+    padding:6px !important;}
+ .banner-home p {
+    font-size: 15px;}
+    .content_img .img-text p {
+        font-size: 12px;}
+    .title {
+        text-align: center;
+        padding: 1rem 0rem 2rem;
+        width: 72%;
+        }
+     .main-btn ,#leverage .tabs > label{
+        font-size: 16px;
+    }
+     .ele-go {
+        right: 0rem;
+        left: 32%;
+    }
+     .banner-home>div {
+        padding-top: 16rem;
+    }
+    .cl-list {
+        justify-content: center;
+        column-gap: .6rem;    margin: 30px 0px;
+        padding:25px 10px;
+    }
+    .cl-list img {
+        width: 47%;
+        padding: 0px 12px;
+    }
+    .cl-list p {
+        width: 49%; font-size: 14px;
+    }
+    .services-sec {
+        column-gap: 1rem;}
+    .service-last {
+        margin: 0rem ;
+    }
+    .serv-para {
+        height: 130px;
+    }
+    .st-growing>div:first-child {
+        padding: 2rem ;
+    }
+    .services-sec>div {
+        width: 48%;}
+    .st-growing>div img {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .img-leve-wear {
+        width: 80px;
+        height: 80px;}
+       
+    .img-leve-wear p {
+        font-size:15px !important;
+    }
+    #leverage .data-inside {
+        padding-top: 1rem;
+        height: 380px;}
+    .client-part h4 {
+        font-size: 18px;
+    }
+    .client-part .cl-img img {
+        padding: 10px;}
+    .client-part {
+        width: 200px;
+        padding: 1rem;
+        margin-bottom: 3rem;}
+    .indus-list .text{
+        font-size:14px;
+        padding:15px;
+    }
+    .data-inside .cate_info p {
+        padding-bottom: 2rem;
+    }
+    #mag-sec {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    #mag-sec .title>div p , #mag-sec .title>div h2{
+        width: 100%;
+    }
+    .mag-cont>div img {
+        width: 40%;
+        padding-bottom:0rem;}
+    .mag-cont span {
+        font-size:22px;
+    }
+    .mag-cont>div {
+        padding: 1rem;}
+    .st-growing {
+        padding: 3rem 2rem 0rem 0rem;
+    }
+    .st-growing-full>div:first-child {
+        padding: 3rem 4rem 3rem 0rem;
+    }
+    .hero-content p,.plat-list ul li {
+        font-size: 14px;
+    }
+    #port-slider {
+        margin-top: 2rem; 
+        margin-bottom: 0rem; 
+    }
+    #port-slider .slide {
+        padding-top: 3rem;
+    }
+    #port-slider .slide-cont {
+        padding: 2rem 2rem 6rem 6rem;}
+    #port-slider .slide-img img{
+        width: 80%;}
+    .mag-cont {
+        padding-right: 2rem;
+      }   
+      #platforms .plat-cont h2 {
+        font-size: 24px;
+    }
+    #magnify {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    #platforms .plat-cont h2 span {
+        font-size: 28px;
+    }
+    #platforms .plat-cont {
+        padding: 1rem 0rem 1rem 2rem;
+        display:block;
+    } 
+    .plat-form2 .plat-cont {
+        width:50%;
+    }
+    .plat-cont {
+        padding: 2rem 0rem 2rem 2rem;
+        width:30%;
+    }
+    .plat-cont h2 {
+        width: 95%;
+    }
+    .plat-list>div {
+        column-gap: 0.5rem;
+        padding: 1rem;
+    }
+    .plat-list>div:first-child, .plat-list>div:nth-child(2) {
+        margin-bottom: 1rem;
+    }
+    .plat-list {
+        margin-right: 2rem;
+        width:70%;
+    }
+    #testimonial .indus-list{
+        height:430px;
+        padding:1rem;
+    }
+    #testimonial .indus-list img,.st-growing-full>div img {
+        width:40%;
+    }
+    #testimonial .indus-list p{
+        font-size:12px;
+    }
+    #testimonial .slick-list {
+        padding: 1rem 0rem 3rem 0rem;
+    }
+    #testimonial .slick-list h3 {
+        padding: 1rem 0rem;
+    }
+    .box {
+        height: 230px;
+    }
+    .icons-leve-wear {
+        column-gap: 0rem;}
+    .banner-wrap,  .banner-slider {
+        height: 600px;}
+    .banner-slider .slick-arrow.slick-prev {
+        left: 2rem !important;
+    }
+    .banner-slider .slick-arrow.slick-next {
+        right: 2rem !important;
+    }
+    .banner-slide .container>div>div {
+        padding: 3rem 0rem 3rem 4rem;
+    }
+    .banner-slide .container>div>div:nth-child(2) {
+        padding: 6rem 4rem 3rem 4rem;
+    }
+    .slick-initialized .banner-slide {
+        padding: 2rem;}
+    .icons-leve-wear {
+        row-gap: 0.5rem;
+    }
+    .tabs{
+        padding:2rem;
+        column-gap:1rem;
+    }
+    #client-sec {
+        padding-top: 0rem;
+        padding-bottom: 5rem;
+    }
+    .box:hover > .hid-box{
+        top: -100%;
+      }
+
+
+ /* ------ who-we-are page ------ */
+ .whowe-text ,.whowe-text-one,.our-value-left,.our-value-block ,.our-value-right {  width: 100%;  padding-right: 0%;  padding-left: 0%; }
+ .we-are-2-img {  padding-top: 0px; }
+ .mission-img1 {  max-width: 100%;  height: 350px;  margin-top: 0px;  border-radius: 30px; } 
+ .our_values { font-size: 40px; margin-top: 50px; padding: 80px 25px 0px 0px; border-right: none; }
+ .driving_force {  padding: 150px 10px; }
+ .our_team p {  font-size:14px;  padding:1rem;}
+ .our-value-left h3 {     font-size: 28px; }
+ .whowe-text h1 {  font-size: 60px;}
+ .whowe-sec {  padding: 6rem 0rem;}
+ .whowe-text h1 {  font-size: 50px;}
+ .vision-img {  top: 300px;}
+ .our_team img {   width: 90%;}
+ /* ------ End  who-we-are page ------ */
+
+ /* ----- portfolio ------- */
+.port_folio {  column-gap: 1rem;   row-gap: 1rem;}
+#port-part {  padding-top: 3rem;}
+#myBtnContainer { padding: 0rem 0px 3rem;}
+.column .content {    margin-bottom: 1rem;}
+.bottom-text b { font-size: 17px;}
+.bottom-text {    font-size: 15px;}
+.overlays {   height: 64%;}
+.read-more-btn {   top: 4rem;}
+.read-more-btn a {  padding: 8px 20px;   border: solid 1px white;}
+/* ----- end portfolio ------- */    
+
+/* ----- website design page ------- */
+.web-dev-list {padding-top: 4rem;padding-bottom: 2rem;row-gap: 2rem;}
+.web-d-type {padding: 2rem;width: 47%;}
+.service_block h1 {font-size: 42px;}
+.web-d-type h2 {font-size: 22px;padding: 1.5rem 0rem;}
+/* ----- end website design ------- */
+/* ----- mobile app design ------- */
+.full_service_baner img { width: 50%;}
+#border_block, #credible {padding-top: 2rem;padding-bottom: 2rem;}
+.text_info h2 {font-size: 20px;}
+.text_info {padding: 25px 1.5rem;}
+.text_info p {padding: .5rem 0rem;}
+.text_info ul li {font-size: 13px;}
+.line.box_ hr { height: 350px;}
+#mobile-app {   padding: var(--main-pad);   padding-top: 2rem;   padding-bottom: 2rem;}
+#mobile-app .mid-app-sec {    margin: 10px 0px;}
+.inner-cre {padding: 20px 15px;margin: 0px 0px 20px;flex-wrap: wrap;row-gap: 2rem;}
+#mobile-app .inside-text p {padding: 4px;font-size: 15px;}
+#mobile-app .inside-text {margin: 20px 0px 0px;padding: 10px 0px 10px 5px;}
+#mobile-app .round {  padding-right: 5px;}
+#mobile-app .round {padding-right: 5px;}
+.back-hover {   margin: 0px 0px 0px 2px;}
+.data-credible {padding: 10px 20px;width: 46%;}
+#credency {   padding-bottom: 5rem;   padding-top: 3rem;}
+.credency_info div {  width: 48%; padding: 1rem;}
+.credency_info {  width: 60%;   row-gap: 1rem;}
+.credency h2 {padding: 2rem;font-size: 24px;width: 38%;}
+
+.iner-box.hover-effect:hover .line.box hr { width: 38%;    bottom: 15%;}
+.iner-box.hover-effect:hover .line.box_ hr { width: 38%;  bottom: 15%;}
+.logo-heading-cre h4 { font-size: 16px;}
+.logo-heading-cre img {width: 48px;  padding: 4px;}
+.need-text-box.hvr-big {width: 85%;}
+.full-sec-need h5 {font-size: 15px;}
+.app_build_block .apps {padding: 2rem 1rem 3rem 0rem;row-gap: 1rem;}
+.app_build {  padding-top: 3rem;  padding-bottom: 1rem;}
+.app_build_block .apps h2 {font-size: 24px;}s
+.app_build_block .apps a {   width: 230px;}
+#faq-sec { padding-top: 2rem;}
+/*mobile app development*/
+#android-page h1 {
+    font-size: 46px;
+}
+#android-page h2 {
+    font-size: 32px;
+    line-height: 42px;
+}
+#android-page h3 {
+    font-size: 28px;
+    line-height: 32px;
+}
+.left-side {
+    padding: 0px 30px;
+}
+.ban-file {
+    padding: 0rem 0rem 0rem 2rem;
+    display: flex;
+    align-items: center;
+}
+.left-side p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.right-side img {
+    width: 100%;
+}
+.btn-header {
+    margin-top: 40px;
+}
+.and-app {
+    padding: 2rem 20px;
+    text-align: left;
+}
+.and-app .and-txt {
+    width: 100%;
+}
+.and-app h2 {
+    width: 100%;
+    margin: 20px auto;
+}
+.sub-heading h2.left-side-sec {
+    font-size: 24px !important;
+    padding: 30px 30px !important;
+}
+.data-credible {
+    width: 48%;}
+    section#credible hr {
+        display:none;
+    }
+.inner-cre {
+    flex-wrap: wrap;}
+.inside-text {
+    display: flex;
+    width: 28%;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0px;
+}
+.round {
+    padding-right: 10px;
+}
+.round p {
+    padding: 11px 11px;
+    margin-left: -37px;
+}
+.img-part-relly img {
+    padding: 0px 0px 20px 0px;
+    transition: none;
+    position: initial;
+    transform-origin: 0%;
+    width: 100%;
+}
+
+/* ----- mobile app design ------- */
+
+.two-img-mobile.container {
+    padding: 0px 0px;
+}
+.full-bulb {
+    padding: 30px 0px 30px 10px;
+    border-radius: 50px;
+}
+.blub-text p {
+    width: 100%;
+}
+.ye h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+#faq-sec img {
+    width: 20px;
+}
+#faq-sec .item {
+    padding: 30px 20px;
+    margin: 15px 20px;
+}
+.left-side .button {  margin-top: 20px;
+}
+.left-side p { padding-top: 10px;
+}
+figure.snip1110 h3 {
+    margin: 5px 0px;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+	figure.snip1110 p {font-size: 12px;
+}
+.two-img-mobile.container h2 {
+    text-align: center;
+    padding-bottom: 0px !important;
+}
+/* digital-marketing */
+.web-d-type.digital-web {
+    width: 43%;
+}
+.digital-marketing.service_baner .service_block h1 {
+    padding: 2rem 0rem 1rem 0rem;
+}
+.digital-marketing.service_baner .service_block div img ,.digital-marketing.service_baner .service_block div:first-child{
+    width: 100%;
+}
+    /* business-consultation */
+    .business-baner.service_baner .service_block h1 { padding: 2rem 2rem 2rem 0rem;}
+    .business-baner img { top: 25%;}
+    .business-baner.service_baner .service_block {padding: 1rem 0rem;}
+    .busi-info h2 { font-size: 24px;}
+    .busi-info {  padding: 5%;}
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+	
+	:root {
+    --main-pad: 0rem 6rem;
+}
+
+h1{
+    font-size:60px;
+ }
+ h2{
+    font-size: 32px;
+ }
+ h3{
+     font-size:14px;
+ }
+ h4{
+     font-size:16px;
+ }
+ p{
+   font-size: 14px;
+ }
+ .banner-home p {
+    font-size: 15px;}
+    .content_img .img-text p {
+        font-size: 12px;}
+    .title {
+        text-align: center;
+        padding: 1rem 0rem 3rem; width: 68%;}
+     .main-btn {
+        font-size: 16px;
+    }
+     .ele-go {
+        right: 0rem;
+        left: 32%;
+    }
+     .banner-home>div {
+        padding-top: 16rem;
+    }
+    .cl-list {
+        justify-content: center;
+        column-gap: .6rem;    margin: 30px 0px;
+        padding:25px 10px;
+    }
+    .cl-list img {
+        width: 47%;
+        padding: 0px 12px;
+    }
+    .cl-list p {
+        width: 49%; font-size: 14px;
+    }
+    .services-sec {
+        column-gap: 1rem;}
+    .service-last {
+        margin: 0rem 2rem;
+    }
+    .serv-para {
+        height: 130px;
+    }
+    .st-growing>div:first-child {
+        padding: 2rem 2rem 2rem 6rem;
+    }
+    .services-sec>div {
+        width: 48%;}
+    .st-growing>div img {
+        width: 70%;
+        margin-left: 10%;
+    }
+    .img-leve-wear {
+        width: 80px;
+        height: 80px;}
+    #leverage .tabs > label {
+        font-size: 16px;}
+    .img-leve-wear p {
+        font-size:15px !important;
+    }
+    #leverage .data-inside {
+        padding-top: 1rem;
+        height: 380px;}
+        .client-part h4 {
+            font-size: 12px;
+        }
+        .client-part .cl-img img {
+            padding: 10px;}
+        .client-part {
+            width: 120px;
+            padding: 0.7rem;}
+        .indus-list .text{
+            font-size:16px;
+            padding:15px;
+        }
+    .data-inside .cate_info p {
+        padding-bottom: 2rem;
+    }
+    #mag-sec {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    #mag-sec .title>div p {
+        width: 100%;
+    }
+    .mag-cont>div img {
+        width: 40%;
+        padding-bottom:0rem;}
+    .mag-cont span {
+        font-size:22px;
+    }
+    .mag-cont>div {
+        padding: 1rem;}
+    .mag-cont {
+        padding-right: 6rem;
+      }
+    .st-growing {
+        padding: 6rem 6rem 0rem 0rem;
+    }
+    .st-growing-full>div:first-child {
+        padding: 3rem 4rem 3rem 0rem;
+    }
+    .st-growing-full>div img {
+        width: 40%;
+    }
+    #port-slider .slide {
+        padding-top: 3rem;
+    }
+    #port-slider .slide-cont {
+        padding: 2rem 2rem 6rem 6rem;}
+    #port-slider .slide-img img{
+        width: 80%;}
+        #platforms .plat-cont h2 {
+            font-size: 24px;
+        }
+        #platforms .plat-cont h2 span {
+            font-size: 30px;
+        }
+        #platforms .plat-cont {
+            padding: 1rem 0rem 1rem 6rem;
+            display:block;
+        }
+        .plat-cont>div:last-child {
+            width: 70%;}
+    .plat-list ul li {
+        font-size: 14px;
+    }
+    #magnify {
+        padding-bottom: 5rem;
+    }
+    .plat-cont {
+        padding: 3rem 0rem 3rem 6rem;
+        width:40%;
+    }
+    .plat-cont h2 {
+        width: 95%;
+    }
+    .plat-list>div {
+        column-gap: 1rem;
+        padding:1rem 2rem 1rem 1rem;
+    }
+    .plat-list>div:first-child, .plat-list>div:nth-child(2) {
+        margin-bottom: 1rem;
+    }
+    .plat-list {
+        margin-right: 6rem;
+        width:60%;
+    }
+    #testimonial{
+        padding-top:0rem;
+    }
+    #testimonial .indus-list{
+        height:450px;
+        padding:1rem;
+    }
+    #testimonial .indus-list p,#masters .indus-list p{
+        font-size:12px;
+    }
+    #testimonial .slick-list {
+        padding: 1rem 0rem 3rem 0rem;
+    }
+    #testimonial .slick-list h3 {
+        padding: 1rem 0rem 0rem;
+    }
+    .box {
+        height: 230px;
+    }
+    .icons-leve-wear {
+        column-gap: 0rem;}
+    #port-slider .btn-next {
+        right: 6rem;
+    }
+    #port-slider .btn-prev {
+        left: 6rem;
+    }
+    .icons-leve-wear {
+        row-gap: 0.5rem;
+    }
+    .st-growing a, .cate_info a {  padding: 8px 25px;font-size: 16px;}
+    .tabs{
+        padding:2rem;
+        column-gap:1rem;
+    }
+    #client-sec {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .box:hover > .hid-box{
+        top: -100%;
+      }
+  /* ------  who-we-are page ------ */
+  .group-img-whowe {  max-width: 100%;  transform: rotate(20deg);  margin-top: -150px; padding-left: 50px; height: 850px; }
+  .we-are-img-small { padding: 10px 20px; max-width: 100%; border-radius: 50px; }
+  .mission-img {    max-width: 100%;     border-radius: 30px;  }
+  .we-are-2-img {    padding-top: 250px; }
+  .vision-img {  top: 250px;}
+  .mission-img1 {   max-width: 100%;   height: 350px;margin-top: 130px;  border-radius: 30px; }
+  .our_values {font-size: 60px;  text-align: center; margin-top: 50px; padding: 80px 25px 0px 0px; border-right: 2px solid var(--orange); }
+  .our_team p { font-size:14px;}
+  .driving_force { padding: 150px 10px;}
+  .whowe-text h1 { font-size: 50px;}
+   /* ------ End  who-we-are page ------ */
+
+/* ----- portfolio ------- */
+.port_folio {  column-gap: 1rem;   row-gap: 1rem;}
+#port-part {  padding-top: 4rem;}
+#myBtnContainer { padding: 0rem 0px 3rem;}
+.column .content {    margin-bottom: 1rem;}
+.bottom-text b { font-size: 17px;}
+.bottom-text {    font-size: 15px;}
+.overlays {   height: 64%;}
+.read-more-btn {   top: 4rem;}
+.read-more-btn a {  padding: 8px 20px;   border: solid 1px white;}
+/* ----- end portfolio ------- */
+
+/* ----- website design page ------- */
+.web-dev-list {padding-top: 4rem;padding-bottom: 2rem;}
+.web-d-type {padding: 2rem 1rem;}
+.service_block h1 {font-size: 42px;}
+.web-d-type h2 {font-size: 22px;padding: 1.5rem 0rem;}
+/* ----- end website design ------- */
+.black_br_btn {  padding: 8px 22px;   font-size: 15px;}
+
+/* ----- mobile app design ------- */
+.full_service_baner img { width: 50%;}
+#border_block, #credible {    padding-top: 3rem; padding-bottom: 3rem;}
+.text_info h2 {   font-size: 25px;}
+.text_info { padding: 30px 2rem; }
+.text_info p {   padding: 1rem 0rem;}
+.text_info ul li {  font-size: 14px;}
+.line.box_ hr { height: 350px;}
+#mobile-app {   padding: var(--main-pad);   padding-top: 2rem;   padding-bottom: 2rem;}
+#mobile-app .mid-app-sec {    margin: 10px 0px;}
+.inner-cre {  padding: 20px 0px;   margin: 0px 0px 20px;}
+#mobile-app .inside-text p {  padding: 10px;  font-size: 16px;}
+#mobile-app .inside-text {  margin: 25px 0px 0px;}
+#mobile-app .round {  padding-right: 5px;}
+#mobile-app .round { padding-right: 15px;}
+.back-hover {   margin: 0px 0px 0px 2px;}
+.data-credible {  padding: 10px 20px;}
+#credency {   padding-bottom: 5rem;   padding-top: 3rem;}
+.credency_info div {  width: 48%; padding: 1rem;}
+.credency_info {  width: 60%;   row-gap: 1rem;}
+.credency h2 {  padding: 2.5rem; font-size: 26px;     width: 38%;}
+
+.iner-box.hover-effect:hover .line.box hr { width: 38%;    bottom: 15%;}
+.iner-box.hover-effect:hover .line.box_ hr { width: 38%;  bottom: 15%;}
+.logo-heading-cre h4 { font-size: 16px;}
+.logo-heading-cre img {width: 48px;  padding: 4px;}
+.need-text-box.hvr-big {   width: 75%;}
+.full-sec-need h5 { font-size: 16px;}
+.app_build_block .apps {  padding: 2rem 2rem 4rem 0rem;  row-gap: 1rem;}
+.app_build {  padding-top: 3rem;  padding-bottom: 1rem;}
+.app_build_block .apps h2 { font-size: 26px;}s
+.app_build_block .apps a {   width: 230px;}
+#faq-sec { padding-top: 2rem;}
+
+/* ----- mobile app design ------- */
+
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px){
+	
+	:root {
+    --main-pad: 0rem 6rem;
+}
+h1{
+    font-size:70px;
+ }
+ h2{
+    font-size: 36px;
+ }
+ h3{
+    font-size:20px;
+ }
+ h4{
+    font-size:18px;
+ }
+ p{
+   font-size: 14px;
+ }
+ .banner-home p,.main-btn ,.client-part h4 {
+    font-size: 16px;}
+ .title {
+    text-align: center;
+    padding: 1rem 0rem 3rem;}
+ .ele-go {
+    right: 0rem;
+    left: 32%;
+}
+ .banner-home>div {
+    padding-top: 20rem;
+}
+.cl-list {
+    justify-content: center;
+    column-gap: .6rem;    margin: 30px 0px;
+    padding:25px 10px;
+}
+.cl-list img {
+    width: 47%;
+    padding: 0px 12px;
+}
+.cl-list p {
+    width: 49%; font-size: 14px;
+}
+.services-sec {
+    column-gap: 1rem;}
+.service-last {
+    margin: 0rem 10rem;
+}
+.serv-para {
+    height: 130px;
+}
+.st-growing>div:first-child {
+    padding: 2rem 6rem 2rem 6rem;
+}
+.services-sec>div {
+    width: 48%;}
+.st-growing>div img {
+    width: 60%;
+    margin-left: 16%;
+}
+.img-leve-wear {
+    width: 90px;
+    height: 90px;}
+#leverage .tabs > label {
+    font-size: 18px;}
+#leverage .data-inside {
+    padding-top: 0rem;
+    height: 350px;}
+.st-growing a, .cate_info a {  padding: 8px 25px;font-size: 16px;}
+
+.slick-initialized .banner-slide {
+    padding: 5rem 8rem;}
+.banner-slide .container>div>div {
+    padding: 3rem ;
+}
+.banner-wrap{
+    height: 600px;
+  }
+.banner-slider .slick-arrow.slick-prev {
+    left: 6rem;
+}
+.banner-slider .slick-arrow.slick-next {
+    right: 6rem;
+}
+.client-part {
+    width: 160px;
+    padding: 0.7rem;}
+
+#mag-sec {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.mag-cont {
+    padding-right: 6rem;
+  }
+.mag-cont>div img {
+    width: 40%;
+    padding-bottom:0rem;}
+.mag-cont span {
+    font-size:22px;
+}
+.mag-cont>div {
+    padding: 1rem;}
+.st-growing {
+    padding: 6rem 6rem 0rem 0rem;
+}
+.st-growing-full>div:first-child {
+    padding: 3rem 4rem 3rem 0rem;
+}
+.st-growing-full>div img {
+    width: 40%;
+}
+#port-slider .slide-cont {
+    padding: 6rem 2rem 6rem 6rem;}
+#port-slider .slide-img img{
+    width: 80%;}
+    #platforms .plat-cont h2 {
+        font-size: 28px;
+    }
+    #platforms .plat-cont h2 span {
+        font-size: 35px;
+    }
+    .plat-cont>div:last-child {
+        width: 70%;}
+.plat-list ul li {
+    font-size: 14px;
+}
+.plat-cont {
+    padding: 6rem 1rem 3rem 6rem;
+    width:50%;
+}
+.plat-cont h2 {
+    width: 95%;
+}
+.plat-list>div {
+    column-gap: 1rem;
+    padding:1rem 2rem 1rem 1rem;
+}
+.plat-list>div:first-child, .plat-list>div:nth-child(2) {
+    margin-bottom: 1rem;
+}
+.plat-list {
+    margin-right: 6rem;
+}
+#testimonial {
+    padding-top: 0rem;}
+#testimonial .indus-list{
+    height:450px;
+    padding:1rem;
+}
+#testimonial .slick-list {
+    padding: 1rem 0rem 3rem 0rem;
+}
+#testimonial .slick-list h3 {
+    padding: 0.5rem 0rem;
+}
+.box {
+    height: 230px;
+}
+.icons-leve-wear {
+    column-gap: 0rem;}
+#port-slider {
+    margin-top: 2rem;}
+#port-slider .btn-next {
+    right: 8rem;
+}
+#port-slider .btn-prev {
+    left: 8rem;
+}
+.icons-leve-wear {
+    row-gap: 1.5rem;
+}
+.test-para{
+    padding:0rem 0rem 1rem;
+}
+.tabs{  padding:2rem;}
+#client-sec {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.box:hover > .hid-box{ top: -100%;}
+
+/* ------  who-we-are page ------ */
+.group-img-whowe {  max-width: 100%;  transform: rotate(20deg);  margin-top: -150px;  padding-left: 50px;  height: 850px;}
+.we-are-img-small {  padding: 10px 20px;   max-width: 100%;   border-radius: 50px; }
+.mission-img {   max-width: 100%; border-radius: 30px;  }
+.we-are-2-img {     padding-top: 250px; }
+.vision-img {  top: 120px;}
+.mission-img1 {   max-width: 100%;   height: 350px;   margin-top: 130px;  border-radius: 30px; }
+.our_values {  font-size: 60px;  text-align: center;  margin-top: 50px;  padding: 80px 25px 0px 0px;  border-right: 2px solid var(--orange); }
+.our_team p {   font-size:14px;}
+.driving_force {   padding: 150px 10px;  }
+.whowe-text h1 {  font-size: 60px;}
+/* ------ End  who-we-are page ------ */
+
+/* ----- portfolio ------- */
+.port_folio {  column-gap: 2rem;   row-gap: 2rem;}
+#port-part {  padding-top: 4rem;}
+#myBtnContainer { padding: 0rem 0px 3rem;}
+.column .content {    margin-bottom: 1rem;}
+.bottom-text b { font-size: 17px;}
+.bottom-text {    font-size: 15px;}
+.overlays {   height: 71%;}
+.read-more-btn {   top: 6rem;}
+/* ----- end portfolio ------- */
+
+/* ----- website design page ------- */
+.web-dev-list {  padding-top: 4rem;   padding-bottom: 4rem;}
+.web-d-type {  padding: 2rem;}
+.service_block h1 {  font-size: 50px;}
+.web-d-type h2 { font-size: 26px;  padding: 1.5rem 0rem;}
+/* ----- end website design ------- */
+
+/*mobile app development*/
+/* ----- mobile app design ------- */
+.full_service_baner img { width: 50%;}
+.text_info { padding: 50px 4rem; }
+#border_block, #credible {    padding-top: 3rem; padding-bottom: 3rem;}
+.text_info h2 {   font-size: 32px;}
+.text_info ul li {  font-size: 15px;}
+#mobile-app {   padding: var(--main-pad);   padding-top: 4rem;   padding-bottom: 2rem;}
+.inner-cre {  padding: 20px 0px;   margin: 0px 0px 20px;}
+.data-credible {  padding: 10px 20px;}
+.credency h2 {  padding: 4rem; font-size: 32px;}
+.app_build_block .apps h2 { font-size: 32px;}
+.iner-box.hover-effect:hover .line.box hr { width: 38%;    bottom: 15%;}
+.iner-box.hover-effect:hover .line.box_ hr { width: 38%;  bottom: 15%;}
+.logo-heading-cre h4 { font-size: 18px;}
+.full-sec-need {    padding: 2rem 0rem;}
+.need-text-box.hvr-big {   width: 65%;}
+.full-sec-need h5 { font-size: 16px;}
+.credency_info div {
+  width: 48%; padding: 1.5rem;
+}
+
+
+/* ----- mobile app design ------- */
+
+/* ----- mobile app design ------- */
+
+.tech-two-part.container { padding: 0px 35px;}	
+#android-page h1 {font-size: 45px;}
+#android-page h2 { font-size: 35px;}
+.text-part-relly { padding: 0px 10px 0px 20px;width: 100%;}
+.left-side { padding: 0px 30px; width: 53%;}
+.left-side p { font-size: 16px; line-height: 22px;}
+figure.snip1110 h3 { margin: 10px 0px; padding: 10px 10px; font-size: 14px;}	
+figure.snip1110 p {font-size: 14px;}
+.left-side {padding: 0px 50px;}	
+.ban-file { padding: 0rem 0rem 0rem 8rem;}
+.left-side { padding: 0px 50px;width: 50%;}
+.right-side { width: 70%;}
+section#banner-head {  height: auto;}
+.inside-text { width: 28%;padding: 18px;margin: 20px 0px;}
+.text-part h2 { padding-bottom: 2px;}
+.text-part { padding-left: 30px; padding-right: 10px;}
+.iner-box { padding: 0px 0px; margin: 0px 20px;}
+.workflow-text-part { padding: 0px 10px 0px 20px;}
+.workflow-iner-box { padding: 0px 0px;}
+.left-side-tech { width: 50%; margin: 20px 20px 0px 0px;}
+.right-side-tech { width: 50%;margin: 20px 0px 0px 20px;}
+.text-tech {padding: 20px 20px;text-align: center;}
+#tech-main-sec { padding: 3rem 0rem 2rem;}
+.blub-text p,.text-part ,.right-side img { width: 100%;}
+.blub-text {padding: 0px 10px;}
+.bulb-img {padding-right: 10px;}
+.ye h4 {font-size: 22px;}
+section#anroid-app {padding: 2rem 20px;}
+.round p { padding: 16px 15px;margin-left: -44px;}
+.full-bulb {border-radius: 50px;}
+.slide-phone img{width:38%;}
+/*digital-marketing*/
+.digital-web.web-d-type {
+    width: 28%;}
+.digital-marketing.service_baner .service_block h1 {
+    padding: 1rem 0rem 1rem 0rem;
+}
+/* business-consultation */
+.business-baner.service_baner .service_block {padding: 6rem 0rem 3rem;}
+.busi-info h2 { font-size: 34px;}
+.busi-info {  padding: 5%;}
+
+
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1600px){
+	:root {
+    --main-pad: 0rem 8rem;
+}
+h1{
+    font-size:80px;
+ }
+ h2{
+    font-size: 38px;
+ }
+ h3{
+    font-size:22px;
+ }
+ h4{
+    font-size:18px;
+ }
+ p{
+   font-size: 15px; 
+ }
+ .banner-slider .slick-arrow.slick-next {
+    right: 8rem;
+}
+.banner-slider .slick-arrow.slick-prev {
+    left: 8rem;
+}
+.banner-slide .container>div>div {
+    padding: 3rem;
+}
+.banner-home p {
+    font-size: 16px;}
+.title {
+    text-align: center;
+    padding: 1rem 0rem 3rem;}
+.read-btn {
+    font-size: 18px;
+}
+ .ele-go {
+    right: 0rem;
+}
+.banner-home>div {
+    padding-top: 16rem;
+}
+.cl-list {
+    justify-content: center;
+    column-gap: 0.6rem;    margin: 30px 0px;
+}
+.cl-list img {
+    width: 47%;
+    padding: 0px 12px;
+}
+.cl-list p {
+    width: 49%; font-size: 14px;
+}
+.services-sec>div {
+    padding: 2rem 1rem 2rem 1rem;}
+.service-last {
+    margin: 0rem 10rem;
+}
+.st-growing>div:first-child {
+    padding:4rem 4rem 4rem 8rem;
+}
+.mag-cont>div {
+    padding: 1.5rem;
+  }
+  .mag-cont {
+    padding-right: 8rem;
+  }
+.st-growing {
+    padding: 5rem 8rem 0rem 0rem;
+}
+.st-growing>div img {
+    width: 65%;
+    margin-left: 15%;}
+.st-growing-full>div:first-child {
+    padding: 6rem 4rem 6rem 0rem;
+}
+.st-growing-full>div img {
+    width: 40%;
+}
+.serv-para {
+    height: 160px;
+}
+#port-slider .slide-img img{
+    width: 80%;}
+#platforms .plat-cont h2 {
+    font-size: 30px;
+}
+#platforms .plat-cont h2 span {
+    font-size: 40px;
+}
+.plat-list ul li {
+    font-size: 15px;
+}
+.plat-cont h2 {
+    width: 95%;
+}
+.plat-cont {
+    padding-left: 8rem;}
+.plat-list>div {
+    column-gap: 1rem;
+    padding:1rem;
+}
+.plat-list>div:first-child, .plat-list>div:nth-child(2) {
+    margin-bottom: 1rem;
+}
+.plat-list {
+    margin-right: 8rem;
+}
+#testimonial .indus-list{
+    height:510px;
+}
+#testimonial .slick-list {
+    padding: 1rem 0rem 3rem 0rem;
+}
+.box {
+    height: 230px;
+}
+.icons-leve-wear {
+    column-gap: 0rem;
+    row-gap:1rem;}
+#port-slider .btn-next {
+    right: 8rem;
+}
+#port-slider .btn-prev {
+    left: 8rem;
+}
+.img-leve-wear {
+    width:90px;
+    height:90px;
+}
+#client-sec {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.client-part{
+    width: 180px;
+}
+.client-part h4 {
+    font-size: 16px;
+}
+.box:hover > .hid-box{
+    top: -100%;
+  }
+  #leverage .data-inside {
+    height: 350px;
+}
+#testimonial{
+    padding-top:2rem;
+}
+.services-butn {
+    padding-top: 3rem;
+}
+
+/* ------  who-we-are page ------ */
+.our_team p { padding: 2rem 2rem;}
+/* ------ End  who-we-are page ------ */
+
+/* ----- portfolio ------- */
+.port_folio {  column-gap: 2rem;   row-gap: 2rem;}
+#myBtnContainer { padding: 0rem 0px 3rem;}
+.overlays {   height: 71%;}
+.read-more-btn {   top: 6rem;}
+/* ----- end portfolio ------- */
+
+/* ----- website design page ------- */
+.web-dev-list {  padding-top: 4rem;   padding-bottom: 4rem;}
+.service_block h1 {font-size: 45px;}
+.web-d-type h2 { font-size: 26px;  padding: 1.5rem 0rem;}
+/* ----- end website design ------- */
+
+
+}
