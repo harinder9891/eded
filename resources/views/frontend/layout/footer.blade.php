@@ -27,7 +27,6 @@
             <li>Menu</li>
             <li><a href="{{url('home')}}">Home</a></li>
             <li><a href="{{url('portfolio')}}">Portfolio</a></li>
-            <li><a href="{{url('services')}}">Our Services</a></li>
             <li><a href="{{url('blog')}}">Blogs</a></li>
             <li><a href="{{url('career')}}">Careers</a></li>
             <li><a href="{{url('contact-us')}}">Get a Quote</a></li>

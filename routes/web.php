@@ -20,6 +20,12 @@ Route::get('/web-d', [App\Http\Controllers\Frontend\IndexController::class, 'web
 Route::get('/bussiness-consultation-services', [App\Http\Controllers\Frontend\IndexController::class, 'bc']);
 Route::get('/digital-marketing-services', [App\Http\Controllers\Frontend\IndexController::class, 'digitmarket']);
 Route::get('/who-we-are', [App\Http\Controllers\Frontend\IndexController::class, 'whoweare']);
+Route::get('/mobile-app-development-services', [App\Http\Controllers\Frontend\IndexController::class, 'mobappdev']);
+Route::get('/e-commerce-services', [App\Http\Controllers\Frontend\IndexController::class, 'ecommserv']);
+Route::get('/ui-and-ux-design-services', [App\Http\Controllers\Frontend\IndexController::class, 'uiux']);
+Route::get('/blockchain-development-services', [App\Http\Controllers\Frontend\IndexController::class, 'blockchain']);
+Route::get('/training-and-internship', [App\Http\Controllers\Frontend\IndexController::class, 'trndint']);
+Route::get('/brand-identity-design', [App\Http\Controllers\Frontend\IndexController::class, 'brandiddesign']);
 Route::post('savemaildata', [App\Http\Controllers\Frontend\IndexController::class, 'savemaildata']);
 Route::get('/thank-you', [App\Http\Controllers\Frontend\IndexController::class, 'thankyou']);
 Route::get('products/{slug?}', [App\Http\Controllers\Frontend\IndexController::class, 'products']);

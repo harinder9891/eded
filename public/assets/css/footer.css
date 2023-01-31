@@ -146,6 +146,7 @@ footer ul li a:hover {
     border-radius: 0px 30px 30px 0px;
     border: solid 1px #303030;
     color: #303030;
+    transition: 0.2s ease;
 }
 .newsletter-div ul:last-child{
    text-align:center;
@@ -330,12 +331,15 @@ footer ul li a:hover {
 .wrap-drop {
     padding: 11px 15px;
     position: relative;
-    z-index: 3;
+    z-index: 1;
     background: #FFFFFF;
     border: 1px solid #BDBDBD;
     box-shadow: 2px 2px 12px rgb(0 0 0 / 12%);
     border-radius: 50px;
     width: 100%;
+}
+.iti--separate-dial-code .iti__selected-flag {
+    background-color:  transparent !important;
 }
 
 .wrap-drop::after {

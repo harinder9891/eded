@@ -14,6 +14,10 @@ h1{
      font-size:16px;}
  p{
    font-size: 14px;  }
+.title {   width: 96%;   margin: 0 auto;}
+.black_br_btn {
+    padding: 7px 20px;
+    font-size: 15px;}
  .slick-next{
     right:5px !important;}
  .slick-next::before, .slick-prev::before{
@@ -29,9 +33,10 @@ h1{
  }
  .title {
     padding: 1rem 0rem 1rem;}
+
     .img-leve-wear p {
       font-size:14px !important;
-      margin-top: -10px;
+      margin-top: 5px;
     }
     #port-slider .ani-img img {
         width: 20%;
@@ -237,8 +242,8 @@ h1{
 .hero-content p {
     padding: 0.5rem 0rem;
 }
-section#leverage {
-    padding-top: 0rem;
+#leverage {
+    padding-top: 2rem;
     padding-bottom:3rem;
 }
 .list-img .fa{
@@ -352,12 +357,41 @@ section#leverage {
     padding: 8px 3px; font-size: 14px;   margin: 0px 4px;}
 .column { width: 100%;}
 .column .content {    margin-bottom: 1rem;}
+.column{float:left;width:46%; padding-bottom: 0rem;}
 .bottom-text b { font-size: 17px;}
 .bottom-text {    font-size: 15px;}
 .overlays {   height: 64%;}
 .read-more-btn {   top: 4rem;}
 .read-more-btn a {  padding: 8px 20px;   border: solid 1px white;}
 /* ----- end portfolio ------- */
+
+/* ----- website design page ------- */
+.full_service_baner img {    display: none;}
+.text_info { padding: 30px 2rem;    width: 100%;}
+.img_block {  width: 100%;}
+.text_info h2 {  font-size: 22px;}
+.text_info p {    padding: 1rem 0rem;}
+#border_block, #credible {    padding-top: 4rem;   padding-bottom: 2rem;}
+.text_info ul {   font-size: 14px;}
+#mobile-app {    padding-top: 2rem;   padding-bottom: 3rem;}
+.auto_img img {  width: 100%;}
+.app_build_block .apps a {
+    width: 222px;
+}
+
+/* */
+.service_baner{   padding: var(--main-pad);   height: auto;}
+ .full_service_baner {   padding: var(--main-pad);   height: auto;}
+.service_block {    flex-direction: column;}
+.service_block div:first-child { width: 100%;}
+.service_block h1 {font-size: 30px; padding: 0rem 1rem 0rem 0rem;}
+.service_block p {  padding: 1rem 1rem 1rem 0rem; }
+.service_block div img { width: 100%;  padding-top: 2rem;}
+.web-dev-list {padding-top: 4rem;padding-bottom: 1rem;row-gap: 2rem;}
+.web-d-type { padding: 2rem; width: 100%;}
+
+.web-d-type h2 {font-size: 22px;padding: 1.5rem 0rem;} */
+/* ----- end website design ------- */
 
 /* ----- website design page ------- */
 .service_baner{   padding: var(--main-pad);   height: auto;}
@@ -372,6 +406,8 @@ section#leverage {
 
 .web-d-type h2 {font-size: 22px;padding: 1.5rem 0rem;}
 /* ----- end website design ------- */
+
+ 
 /*mobile app development*/
 .two-img-mobile.container img ,.sub-heading h2.left-side-sec,h2.cre-heading,.iner-heading-data,.text-part-relly,.data-credible,.need-inner h2,.left-side-tech,.slide-phone figcaption, .cre-mobile h2 ,
 .second-sec h2,.blub-text p,.right-side,.left-side,section#banner-head .right-side,section#banner-head .left-side,.right-side img,.and-app .and-txt,.and-app h2,.bulb-img img ,.img-part-relly img{ 
@@ -385,24 +421,13 @@ section#banner-head .left-side {
 #android-page h1 {
     font-size: 46px;
 }
-#android-page h2 {
-    font-size: 26px;
-}
-#android-page h3 {
-    font-size: 22px;
-}
-.bringing li, .text-part-relly li,figure.snip1110 p {
-    font-size: 14px;
-}	
-.left-side {
-    padding: 0px 30px;
-}
-.line hr,.slide-phone img {
-display:none;
-}	
-.slide-phone figcaption {
-    padding: 1rem 0rem;}
-#really, section#credible,section#credency {
+#android-page h2 {   font-size: 26px;}
+#android-page h3 {   font-size: 22px;}
+.bringing li, .text-part-relly li,figure.snip1110 p {  font-size: 14px;}	
+.left-side {   padding: 0px 30px;}
+.line hr,.slide-phone img {display:none;}	
+.slide-phone figcaption { padding: 1rem 0rem;}
+#really, n#credible{
     padding-top: 0rem;
     padding-bottom: 0rem;
 }
@@ -449,53 +474,31 @@ section#really {
     position: initial;
     transform-origin: 0%;
 }
-.iner-box {
-    flex-direction: column-reverse;
-}
-.workflow-iner-box,.iner-box.hover-effect  {
-    flex-direction: column;
-    display: flex;
-}
-.workflow-img-part img {
-    padding: 20px 0px 20px 0px;
-    transition: none;
-    position: initial;
-    transform-origin: 0%;
-    width: 100%;
-}
-.blub-text {
-    padding: 0px 20px;
-}
-.text-part {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 20px;
-}
-.text-part h2 {
-    padding-bottom: 10px;
-}
-#android-need {
-    padding: 3rem 20px;
-}
-.full-sec-need {
-    padding: 5rem 0rem;
-}
-.need-text-box p {
-    padding: 0px;
-}
-.back-orange {
-    width: 380px;
-    height: 380px;
-}
-.need-text-box {
-    width: 90%;
-}
-.workflow-img-part img {
-    padding: 0px 0px 20px 0px;
-}
-#workflow {
-    padding: 2rem 20px;
-}
+.iner-box {   flex-direction: column-reverse;}
+
+.credency { flex-direction: column;row-gap: 2rem;padding-top: 2rem;}
+.credency h2 {  width: 100%;  padding: 2rem; font-size: 22px;}
+.credency_info { width: 100%;  flex-wrap: wrap;   row-gap: 2rem;}
+.credency_info div {  width: 100%;  padding: 2rem;}
+#credency {  padding-top: 3rem;  padding-bottom: 3rem;}
+.app_build {   padding-top: 3rem;  padding-bottom: 0rem;}
+.app_build_block div {  width: 100%;}
+.app_build .app_build_block {  padding: 2rem 0rem 2rem;}
+.app_build_block .apps {   padding: 1rem 0rem 0rem 0rem; row-gap: 1rem;}
+.app_build_block .apps h2 {  font-size: 22px;}
+.app_build_block:last-child {  flex-direction: column-reverse;}
+.workflow-iner-box,.iner-box.hover-effect  {   flex-direction: column;  display: flex;}
+.workflow-img-part img {   padding: 20px 0px 20px 0px;   transition: none;   position: initial;   transform-origin: 0%;   width: 100%;}
+.blub-text {   padding: 0px 20px;}
+.text-part {  padding-left: 15px;   padding-right: 15px;   padding-bottom: 20px;}
+.text-part h2 {   padding-bottom: 10px;}
+#android-need {  padding: 3rem 20px;}
+.full-sec-need {  padding: 1rem 0rem;}
+.need-text-box p {  padding: 0px;}
+.back-orange {   width: 380px;   height: 380px;}
+.need-text-box {  width: 90%;}
+.workflow-img-part img {   padding: 0px 0px 20px 0px;}
+#workflow {   padding: 2rem 20px;}
 .workflow-text-part {
     padding-left: 10px;
     padding-right: 10px;
@@ -569,6 +572,11 @@ section#bulb {
 }
 .data-credible {
     padding: 10px 10px;
+    border-bottom: solid 1px #e2e2e2;
+    border-right: none;
+}
+.data-credible:last-child {
+    border-bottom: none;
 }
 .cre-mobile hr {
     display: none;
@@ -607,11 +615,14 @@ section#bulb {
 }
 .back-hover {
     padding: 5px;
+    width: auto;
+    margin: 0px 0px 0px 5px;
 }
 .slide-phone ,.full-bulb{
     display: block;
 
 }
+ 
 /*digital-marketing*/
  .digital-web img.digi-img {
     height: 120px;
@@ -627,10 +638,142 @@ section#bulb {
 .busi-info{ padding:0;}
 .business-reflect{flex-direction:column;}
 .business-content{padding-top:3rem;}
+
+/* blockchain-page */
+#network ,#testimonial-section,#industries-blockchain{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
+.network {padding-top: 2rem;}
+#application-block,#grid-gallery,#innovate,#block-baner,#timeline-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.industries-blockchain .industry-blockchain div img { width: 50px;padding-bottom:5px;}
+.curved-back img {margin-top: -5rem;}
+#grid-gallery .gallery-links {column-gap: 2rem;flex-wrap: wrap;}
+#timeline li {min-width: 48px;}
+#grid-gallery img { max-width: 20% !important;}
+.timeline-div {padding-top: 1rem; }
+#tfeature-images {height: 190px;}
+.tfeature_btn {margin-top: 30px;font-size: 40px;}
+.tfeature-images_item {width: 120px;height: 120px;left: 80%;}
+.tfeature-images_item{     margin-left: -120px;}
+.testimonial-columns{padding: 2rem 0 0rem;}
+li.up .avatar { margin-top: -72px;}
+li.down .avatar {left: 0px;top: 120px;min-width:0;}
+.innovate-back {padding: 2rem 1rem;}
+.info p {padding-bottom: 1.5rem;font-size: 15px;}
+.head h2 {font-size: 22px; line-height:1.2; width:100%;}
+#block-baner .block,#block-baner img ,.aplctn .list ,.list-item { width: 100%;}
+#block-baner .block h1 {font-size: 30px;}
+#block-baner .block {height: 60%;}
+.curved-back { height: 0px;display:none;}
+.blog-div{display:block;padding-top:2rem;}
+.blog-part{padding:1rem 0rem;}
+#grid-gallery .gallery-links {column-gap: 1.5rem;}
+#grid-gallery .image-container { padding:0rem;}
+.gallery-links a {font-size:12px;padding: 0.3rem 0rem;}
+#block-baner .element { display:none;}
+.block-title .icon img {width: 60px;height: 60px;}
+.block-title .icon {display: flex;position: initial;width: 18%;border: solid 2px #ffff;}
+.avatar {line-height: 1.2;font-size: 12px;}
+.circle { width: 35px; height: 35px; border: 4px solid #f1a88e ;}
+.down .circle{left:-5px;}
+.content:before, .aplctn img  { width: 0px;}
+#grid-gallery img { padding: 1rem ;}
+#grid-gallery .gallery-links{padding:2rem 0rem;}
+#tfeature-testimonial_content {font-size: 15px;padding: 1rem 0;}
+.blog-div{font-size:15px;}
+.list-item {font-size: 14px; margin:1rem 0rem;padding:0.5rem;} 
+#first-letter { font-size: 15px; min-height:100px; padding:10px ;min-height:40px;}
+.list-wrapper { display: block;}
+.industries-blockchain .industry-blockchain{width:100%;justify-content:center;column-gap: 1rem;} 
+.industries-blockchain .info{width:100%;text-align:center;padding-top: 1rem;}
+.industries-blockchain{display:block;padding-top: 2rem;}
+.network ul li { width: 45%;}
+.sub-input{padding:1rem;}
+.network ul { column-gap: 1rem; row-gap: 1rem;}
+#tfeature-testimonial { padding: 0rem ;}
+.tfeature-images_item.left {margin-left: -200px;width: 60px;height: 60px;margin-top: 13%;}
+.tfeature-images_item.right {margin-left: 20px;width: 60px;height: 60px;margin-top: 13%;}
+.bottom-text br{display:block;}
+.column-block {  width: 30%; padding-bottom: 0rem;}
+#port-part .row {   column-gap: 1rem !important;}
+.main.portfoilio h2 { font-size: 26px;line-height: 34px;}
+#myBtnContainer{text-align:center;padding:1rem 0px 2rem;}
+#myBtnContainer .btn{padding:8px 5px;font-size:15px;margin:0px 0px;}
+#port-part {  padding-top: 3rem;  padding-bottom: 2rem;}
+/* e-commerce */
+.service_baner.e-commerce { height: 90vh;}
+.ecomm-img {display: none;}
+.ecomm_circle {  height: auto; width:100%; padding:1rem;  position: static; border-radius: 0%; }
+.e-commerce-detail>div { padding: 2rem 0rem;}
+.ecomm_circle h2 { font-size: 20px;padding-bottom:1rem;}
+.ecomm_circle p { font-size: 12px;}
+/* ui-ux */
+.ui-ux-section { padding-bottom: 3rem;}
+.box-top, .box-bottom {padding:10px 0px;}
+.design-process .dotted-line{ display:none;} 
+.box-top-left strong {font-size: 100px;} 
+.box-top-left, .box-bt-right, .box-top-right, .box-bt-left ,.ux4img  {width: 100%;}
+.box-top, .box-bottom {display: block;}
+.box-overlay { position: relative;  top: 42%;left: 0;}
+.tech-stack h2, h2.ui-ux-head ,.box-overlay h3 {font-size: 26px;}
+.tech-stack-logo { padding: 1rem ;}
+.icons {padding: 2px; }
+.box-overlay p {font-size: 14px;}
+.colm-reverse {display:flex;flex-direction: column-reverse !important;}
+.ui-ux-section .title{width:90%}
+.design-process {padding-top: 3rem;padding-bottom: 3rem;}
 
+/* brand-identity */
+.brand-identity ,.imp-elements,.laptopguy ,.brandsells,.ourdesign ,.designmeetsart ,.brandadd-section {padding-top: 3rem;padding-bottom: 3rem;}
+.ourwork-cont{ padding-top: 1rem;padding-bottom: 0rem;}
+.ourwork-content ,.brands-built { padding-top: 1rem;padding-bottom: 1rem;}
+.laptopguy{ background-image: none !important;}
+.ourwork-content h3 {font-size:18px;padding: 0rem 0rem 1rem;}
+.service_block.brand-identity h1 {padding: 0rem 4rem 0rem 0rem;}
+.brandadd-section .brandadd-points {padding-top: 2rem;gap:2rem;}
+.brandadd-section .title,.imp-elements-points>div,.imp-elements .title,.designmeetsart>div,.designmeetsart img ,.ourwork > div > div>div { width:100%;}
+.brandadd-section .brandadd-points { grid-template-columns: auto;}
+.imp-elements-points ,.ourdesign,.designmeetsart,.ourwork-cont {display: block;}
+.ourdesign > div > img {display:none;}
+.brandsells > p { padding: 0rem 1rem;font-size:16px;}
+.ourdesign > div:first-of-type {padding: 1rem;}
+.designmeetsart > div > h3 ,.brandsells h3 ,.ourdesign > div > h3 { font-size: 20px;}
+.designmeetsart > div > p,.brandadd-section > div > div > p ,.brand-btn ,.join2-button { font-size: 14px;}
 
+/* training and internship */
+.w-culture {  top: -5%;left: 0; background-color: transparent;width:100%;}
+.w-culture h3{ color:#303030;}
+.work-culture li p,.about-text p, .works-text p  { font-size: 14px;}
+.trning_text p { padding: 1rem 0rem;font-size: 14px;}
+.trning_text h2 { font-size: 20px;}
+.over-text h3 { font-size: 80px;}
+.work-culture li .work-info { height: 350px;}
+.about-text ,.works-text{ padding: 15px;width:100%;} 
+.w-culture h3 { font-size: 30px;}
+.trning_text { padding:2rem 1rem;}
+.trning-and-internship ,.work-culture{display: block;}
+.trning-and-internship>div,.work-culture li {width:100%;}
+.t-i-img, .t-i-img1 {margin-top: 5%;}
+.about-over ,.works-over {display:none;}
+.works-box { margin-top: 20px;}
+.work-4 { padding: 10rem 0rem 3rem;    background-image: none !important;}
 
+/* ----- contact page------- */
+.contact_page {  padding-top: 2rem; padding-bottom: 2rem;}
+.contact_page h1 { font-size: 36px;}
+.contact_page h3 {font-size: 24px; }
+.con-block { margin: 3rem 0px 0rem;  row-gap: 2rem;   flex-wrap: wrap;}
+.con-block .block img { width: 42px;}
+.con-block .block { width: 100%;padding: 1rem;}
+.con-block .block h4 {  font-size: 17px;  padding: 0.5rem 0px;}
+
+/* ----- end contact page------- */
+
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){
 	:root {
@@ -717,8 +860,10 @@ h1{
         font-size:15px !important;
     }
     #leverage .data-inside {
-        padding-top: 1rem;
-        height: 380px;}
+        padding-top: 0rem;
+        height: auto;
+        padding-bottom: 1rem;
+        }
     .client-part h4 {
         font-size: 18px;
     }
@@ -773,7 +918,7 @@ h1{
     .mag-cont {
         padding-right: 2rem;
       }   
-      #platforms .plat-cont h2 {
+    #platforms .plat-cont h2 {
         font-size: 24px;
     }
     #magnify {
@@ -860,7 +1005,6 @@ h1{
         top: -100%;
       }
 
-
  /* ------ who-we-are page ------ */
  .whowe-text ,.whowe-text-one,.our-value-left,.our-value-block ,.our-value-right {  width: 100%;  padding-right: 0%;  padding-left: 0%; }
  .we-are-2-img {  padding-top: 0px; }
@@ -915,7 +1059,6 @@ h1{
 .credency_info div {  width: 48%; padding: 1rem;}
 .credency_info {  width: 60%;   row-gap: 1rem;}
 .credency h2 {padding: 2rem;font-size: 24px;width: 38%;}
-
 .iner-box.hover-effect:hover .line.box hr { width: 38%;    bottom: 15%;}
 .iner-box.hover-effect:hover .line.box_ hr { width: 38%;  bottom: 15%;}
 .logo-heading-cre h4 { font-size: 16px;}
@@ -924,8 +1067,10 @@ h1{
 .full-sec-need h5 {font-size: 15px;}
 .app_build_block .apps {padding: 2rem 1rem 3rem 0rem;row-gap: 1rem;}
 .app_build {  padding-top: 3rem;  padding-bottom: 1rem;}
+ .app_build .app_build_block {padding: 0rem 0rem;}
 .app_build_block .apps h2 {font-size: 24px;}s
 .app_build_block .apps a {   width: 230px;}
+.auto_img img {  width: 100%;}
 #faq-sec { padding-top: 2rem;}
 /*mobile app development*/
 #android-page h1 {
@@ -951,7 +1096,7 @@ h1{
     font-size: 14px;
     line-height: 20px;
 }
-.right-side img {
+.right-side img,.and-app .and-txt  {
     width: 100%;
 }
 .btn-header {
@@ -960,9 +1105,6 @@ h1{
 .and-app {
     padding: 2rem 20px;
     text-align: left;
-}
-.and-app .and-txt {
-    width: 100%;
 }
 .and-app h2 {
     width: 100%;
@@ -1032,7 +1174,7 @@ figure.snip1110 h3 {
     padding: 10px 20px;
     font-size: 12px;
 }
-	figure.snip1110 p {font-size: 12px;
+figure.snip1110 p {font-size: 12px;
 }
 .two-img-mobile.container h2 {
     text-align: center;
@@ -1048,17 +1190,113 @@ figure.snip1110 h3 {
 .digital-marketing.service_baner .service_block div img ,.digital-marketing.service_baner .service_block div:first-child{
     width: 100%;
 }
-    /* business-consultation */
-    .business-baner.service_baner .service_block h1 { padding: 2rem 2rem 2rem 0rem;}
-    .business-baner img { top: 25%;}
-    .business-baner.service_baner .service_block {padding: 1rem 0rem;}
-    .busi-info h2 { font-size: 24px;}
-    .busi-info {  padding: 5%;}
+/* business-consultation */
+.business-baner.service_baner .service_block h1 { padding: 2rem 2rem 2rem 0rem;}
+.business-baner img { top: 25%;}
+.business-baner.service_baner .service_block {padding: 1rem 0rem;}
+.busi-info h2 { font-size: 24px;}
+.busi-info {  padding: 5%;}
+/* blockchain-page   */
+#industries-blockchain,#grid-gallery,#innovate,#testimonial-section,#timeline-section,#network,#application-block,#block-baner {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.list-wrapper {margin-top: 30px;}
+.industries-blockchain .industry-blockchain div img { width: 50px;padding-bottom:5px;}
+.curved-back img {margin-top: -5rem;}
+#timeline li { min-width: 90px;}
+.timeline-div { padding-top: 2rem;}
+li.down .avatar {left: 88px;min-width: 130px;}
+.content:before {width: 40px;}
+li.up .avatar { margin-top: -75px;}
+.list-item { margin: 2rem 5rem !important;padding: 1rem 1rem !important;font-size: 20px !important;width: 100%;}
+.head h2 {font-size: 26px;}
+#block-baner .block {width: 70%; padding-top: 2rem;justify-content: flex-start;}
+#block-baner .block h1 { font-size: 40px; }
+.curved-back { height: 100px;}
+#grid-gallery .gallery-links { column-gap: 3rem;}
+#grid-gallery .image-container {padding:0rem;}
+.gallery-links a {font-size:18px;}
+#block-baner img {width: 90%;}
+#block-baner .element { bottom: 25rem;left: 5rem;}
+.block-title .icon img {width: 80px;height: 80px;}
+.block-title .icon { top: -14px;border: solid 40px #ffff; display: flex;left: -33px; width: 31%;}
+.avatar {line-height: 1.2;font-size: 15px;}
+.circle {width: 35px;height: 35px;border: 4px solid #f1a88c;}
+.down .circle{left:50px;}
+#grid-gallery img { padding: 1rem 2rem; }
+.aplctn .list {width: 100%; }
+.aplctn img { width: 0%; }
+#tfeature-testimonial_content { font-size: 15px; padding: 1rem 0;}
+.tfeature-images_item.right {margin-left: 180px;margin-top: 15%;}
+.tfeature-images_item.left {margin-left: -280px;margin-top: 15%;}
+.blog-div{font-size:15px;column-gap:2rem;padding-top:3rem;}
+#first-letter {font-size: 20px;}
+.info p { padding-bottom: 5rem;font-size: 20px;}
+.network { padding-top: 2rem;}
+.network ul { column-gap: 1rem; row-gap: 1rem;}
+.network ul li {width: 22%;}
+.industries-blockchain .industry-blockchain {width: 48%;align-items: center;column-gap: 1rem;}
+#port-part { padding-top: 4rem !important; padding-bottom: 0rem !important;}
+.column {padding-bottom: 1rem;}
+#tfeature-testimonial { padding: 0rem 6rem;}
+.tfeature-images_item {width: 240px;height: 240px;  margin-left: -110px;}
+.testimonial-columns { padding: 4rem 0 0rem;}
+.tfeature_btn {margin-top: 75px;}
+.main.portfoilio h2{font-size:26px;line-height:30px;   padding-bottom:3rem;}
+#myBtnContainer{text-align:center;padding:1rem 0px 2rem;}
+#myBtnContainer .btn { font-size: 15px;}
+/* e-commerce */
+.service_baner.e-commerce { height: auto;}
+.ecomm_circle {  height: 320px; width: 320px; padding:50px 40px;top:5px;}
+.ecomm_circle h2 { font-size: 20px;padding-bottom:1rem;}
+.ecomm_circle p { font-size: 12px;}
+/* ui-ux */
+.box-overlay h3 { font-size: 30px;}
+.box-top .ux4img,.box-bottom .ux4img,.ui-ux-baner .service_block div:first-child { width:100%;}
+.box-overlay p { font-size: 16px;}
+.box-top-left strong { font-size: 100px;}
+.box-overlay { top: 32%;}
+.icons { padding: 10px;}
+.tech-stack-logo {padding: 1rem 5rem ;}
+.box-top-left, .box-bt-right { width: 45%;}
+.ui-ux-baner  .service_block {display: block;}
+/* brand-identity */
+.service_baner.brand-identity { height: auto;background-size: contain;}
+.service_block.brand-identity h1 { padding: 0rem ;}
+.brand-identity {  padding-top: 5rem;padding-bottom: 5rem;}
+.ourdesign > div:first-of-type {padding: 1rem;}
+.designmeetsart > div > h3 { font-size: 60px;}
+.designmeetsart > div > p { font-size: 16px;}
+.brandsells > p {padding: 0rem 10rem;}
+.brandadd-section .brandadd-points { gap: 3rem;}
+.ourwork > div > div>div { width: 45%;}
+.ourwork-content {padding: 1rem 0rem;}  
+/* training and internship */
+.w-culture {  top: 35%; left: 35%;height: 250px;width: 250px;}
+.work-culture li p,.about-text p, .works-text p  { font-size: 14px;}
+.trning_text p { padding: 2rem 0rem;}
+.over-text h3 { font-size: 80px;}
+.work-culture li .work-info { height: 300px;}
+.about-text { padding: 15px;} 
+.w-culture h3 { font-size: 30px;}
+.trning_text { padding: 5rem 2rem;}
+.ourwork-content {padding: 1rem 0rem;}   
+
+/* ----- contact page------- */
+.contact_page h1 { font-size: 40px;}
+.contact_page h3 {font-size: 26px; }
+.con-block { margin: 3rem 0px 0rem;  row-gap: 2rem;   flex-wrap: wrap;}
+.con-block .block img { width: 50px;}
+.con-block .block { width: 48%;padding: 1rem;}
+.con-block .block h4 {  font-size: 18px;  padding: 0.5rem 0px;}
+
+/* ----- end contact page------- */
+
 
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1200px){
-	
+@media only screen and (min-width: 1024px) and (max-width: 1200px){	
 	:root {
     --main-pad: 0rem 6rem;
 }
@@ -1085,14 +1323,14 @@ h1{
     .title {
         text-align: center;
         padding: 1rem 0rem 3rem; width: 68%;}
-     .main-btn {
+    .main-btn {
         font-size: 16px;
     }
-     .ele-go {
+    .ele-go {
         right: 0rem;
         left: 32%;
     }
-     .banner-home>div {
+    .banner-home>div {
         padding-top: 16rem;
     }
     .cl-list {
@@ -1134,19 +1372,20 @@ h1{
     }
     #leverage .data-inside {
         padding-top: 1rem;
-        height: 380px;}
-        .client-part h4 {
-            font-size: 12px;
+        /* height: 380px; */
         }
-        .client-part .cl-img img {
-            padding: 10px;}
-        .client-part {
-            width: 120px;
-            padding: 0.7rem;}
-        .indus-list .text{
-            font-size:16px;
-            padding:15px;
-        }
+    .client-part h4 {
+         font-size: 12px;
+    }
+    .client-part .cl-img img {
+         padding: 10px;}
+    .client-part {
+        width: 120px;
+        padding: 0.7rem;}
+    .indus-list .text{
+        font-size:16px;
+        padding:15px;
+     }
     .data-inside .cate_info p {
         padding-bottom: 2rem;
     }
@@ -1184,18 +1423,18 @@ h1{
         padding: 2rem 2rem 6rem 6rem;}
     #port-slider .slide-img img{
         width: 80%;}
-        #platforms .plat-cont h2 {
-            font-size: 24px;
-        }
-        #platforms .plat-cont h2 span {
-            font-size: 30px;
-        }
-        #platforms .plat-cont {
-            padding: 1rem 0rem 1rem 6rem;
-            display:block;
-        }
-        .plat-cont>div:last-child {
-            width: 70%;}
+    #platforms .plat-cont h2 {
+        font-size: 24px;
+    }
+    #platforms .plat-cont h2 span {
+        font-size: 30px;
+    }
+     #platforms .plat-cont {
+        padding: 1rem 0rem 1rem 6rem;
+        display:block;
+    }
+    .plat-cont>div:last-child {
+        width: 70%;}
     .plat-list ul li {
         font-size: 14px;
     }
@@ -1263,16 +1502,16 @@ h1{
         top: -100%;
       }
   /* ------  who-we-are page ------ */
-  .group-img-whowe {  max-width: 100%;  transform: rotate(20deg);  margin-top: -150px; padding-left: 50px; height: 850px; }
-  .we-are-img-small { padding: 10px 20px; max-width: 100%; border-radius: 50px; }
-  .mission-img {    max-width: 100%;     border-radius: 30px;  }
-  .we-are-2-img {    padding-top: 250px; }
-  .vision-img {  top: 250px;}
-  .mission-img1 {   max-width: 100%;   height: 350px;margin-top: 130px;  border-radius: 30px; }
-  .our_values {font-size: 60px;  text-align: center; margin-top: 50px; padding: 80px 25px 0px 0px; border-right: 2px solid var(--orange); }
-  .our_team p { font-size:14px;}
-  .driving_force { padding: 150px 10px;}
-  .whowe-text h1 { font-size: 50px;}
+.group-img-whowe {  max-width: 100%;  transform: rotate(20deg);  margin-top: -150px; padding-left: 50px; height: 850px; }
+.we-are-img-small { padding: 10px 20px; max-width: 100%; border-radius: 50px; }
+.mission-img {    max-width: 100%;     border-radius: 30px;  }
+.we-are-2-img {    padding-top: 250px; }
+.vision-img {  top: 250px;}
+.mission-img1 {   max-width: 100%;   height: 350px;margin-top: 130px;  border-radius: 30px; }
+.our_values {font-size: 60px;  text-align: center; margin-top: 50px; padding: 80px 25px 0px 0px; border-right: 2px solid var(--orange); }
+.our_team p { font-size:14px;}
+.driving_force { padding: 150px 10px;}
+.whowe-text h1 { font-size: 50px;}
    /* ------ End  who-we-are page ------ */
 
 /* ----- portfolio ------- */
@@ -1297,7 +1536,9 @@ h1{
 
 /* ----- mobile app design ------- */
 .full_service_baner img { width: 50%;}
-#border_block, #credible {    padding-top: 3rem; padding-bottom: 3rem;}
+ #android-need {padding: 0rem 0rem;}
+ .full-sec-need {   padding: 4rem 0rem;}
+#border_block, #credible {padding-top: 3rem;padding-bottom: 3rem;}
 .text_info h2 {   font-size: 25px;}
 .text_info { padding: 30px 2rem; }
 .text_info p {   padding: 1rem 0rem;}
@@ -1316,7 +1557,6 @@ h1{
 .credency_info div {  width: 48%; padding: 1rem;}
 .credency_info {  width: 60%;   row-gap: 1rem;}
 .credency h2 {  padding: 2.5rem; font-size: 26px;     width: 38%;}
-
 .iner-box.hover-effect:hover .line.box hr { width: 38%;    bottom: 15%;}
 .iner-box.hover-effect:hover .line.box_ hr { width: 38%;  bottom: 15%;}
 .logo-heading-cre h4 { font-size: 16px;}
@@ -1327,15 +1567,73 @@ h1{
 .app_build {  padding-top: 3rem;  padding-bottom: 1rem;}
 .app_build_block .apps h2 { font-size: 26px;}s
 .app_build_block .apps a {   width: 230px;}
+.auto_img img {  width: 100%;}
 #faq-sec { padding-top: 2rem;}
 
 /* ----- mobile app design ------- */
 
+.digital-marketing img.digi-img { height: 120px; width: 130px;}
+/* business-consultation */
+.business-baner.service_baner .service_block h1 { padding: 2rem 2rem 2rem 0rem;}
+.business-baner img { top: 25%;}
+.business-baner.service_baner .service_block {padding: 1rem 0rem;}
+.busi-info h2 { font-size: 24px;}
+.busi-info {  padding: 5%;}
+
+/* ui-ux */
+.ui-ux-baner .service_block div:first-child {  width: 48%;}
+.ui-ux-baner  .service_block {display: flex;}
+.box-overlay h3 { font-size: 40px;}
+.box-top .ux4img,.box-bottom .ux4img{ width:100%;}
+.box-overlay p { font-size: 16px;}
+.box-top-left strong { font-size: 100px;}
+.box-overlay { top: 32%;}
+
+/* brand-identity */
+.service_block.brand-identity h1 { padding: 0rem ;}
+.brand-identity {  padding-top: 5rem;}
+.ourdesign > div:first-of-type {padding: 1rem;}
+.designmeetsart > div > h3 { font-size: 60px;}
+.designmeetsart > div > p { font-size: 16px;}
+.brandsells > p {padding: 0rem 10rem;}
+.brandadd-section .brandadd-points { gap: 3rem;}
+.ourwork > div > div>div { width: 45%;}
+.ourwork-content {padding: 1rem 0rem;}
+/* blockchain page */
+#timeline li { min-width: 120px;}
+#block-baner img {width: 50%;}
+#block-baner .element { bottom: 2rem;left: 5rem;}
+.aplctn img { width: 30%;}
+.aplctn .list { width: 70%;}
+#first-letter {font-size: 15px; padding: 0px 0px 5px 30px;}
+.block-title .icon img { width: 60px; height: 60px;}
+.title .icon {top: -22px;}
+#first-letter { min-height: 55px;}
+.list-item { font-size: 16px !important;margin: 1.5rem 1rem !important; width: 40%;padding: 1rem !important;}
+#myBtnContainer .btn {font-size: 16px;}
+/* training and internship */
+.w-culture {  top: 35%; left: 35%;height: 300px;width: 300px;}
+.work-culture li p,.about-text p, .works-text p  { font-size: 14px;}
+.trning_text p { padding: 2rem 0rem;}
+.over-text h3 { font-size: 80px;}
+.work-culture li .work-info { height: 340px;}
+.about-text { padding: 15px;}
+
+/* ----- contact page------- */
+.contact_page h1 { font-size: 45px;}
+.contact_page h3 {font-size: 30px; }
+.con-block { margin: 3rem 0px 0rem;}
+.con-block .block img { width: 50px;}
+.con-block .block { width: 30%;padding: 1rem;}
+.con-block .block h4 {  font-size: 18px;  padding: 0.5rem 0px;}
+
+/* ----- end contact page------- */
+/* e-commerce */
+.ecomm_circle { height: 350px; width: 350px;}
 
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1366px){
-	
 	:root {
     --main-pad: 0rem 6rem;
 }
@@ -1354,12 +1652,12 @@ h1{
  p{
    font-size: 14px;
  }
- .banner-home p,.main-btn ,.client-part h4 {
+.banner-home p,.main-btn ,.client-part h4 {
     font-size: 16px;}
- .title {
+.title {
     text-align: center;
     padding: 1rem 0rem 3rem;}
- .ele-go {
+.ele-go {
     right: 0rem;
     left: 32%;
 }
@@ -1451,14 +1749,14 @@ h1{
     padding: 6rem 2rem 6rem 6rem;}
 #port-slider .slide-img img{
     width: 80%;}
-    #platforms .plat-cont h2 {
-        font-size: 28px;
-    }
-    #platforms .plat-cont h2 span {
-        font-size: 35px;
-    }
-    .plat-cont>div:last-child {
-        width: 70%;}
+#platforms .plat-cont h2 {
+    font-size: 28px;
+}
+#platforms .plat-cont h2 span {
+    font-size: 35px;
+}
+.plat-cont>div:last-child {
+    width: 70%;}
 .plat-list ul li {
     font-size: 14px;
 }
@@ -1548,13 +1846,14 @@ h1{
 .web-d-type h2 { font-size: 26px;  padding: 1.5rem 0rem;}
 /* ----- end website design ------- */
 
-/*mobile app development*/
+
 /* ----- mobile app design ------- */
 .full_service_baner img { width: 50%;}
 .text_info { padding: 50px 4rem; }
 #border_block, #credible {    padding-top: 3rem; padding-bottom: 3rem;}
 .text_info h2 {   font-size: 32px;}
 .text_info ul li {  font-size: 15px;}
+ .text_info p {  padding: 2rem 0rem;}
 #mobile-app {   padding: var(--main-pad);   padding-top: 4rem;   padding-bottom: 2rem;}
 .inner-cre {  padding: 20px 0px;   margin: 0px 0px 20px;}
 .data-credible {  padding: 10px 20px;}
@@ -1570,8 +1869,6 @@ h1{
   width: 48%; padding: 1.5rem;
 }
 
-
-/* ----- mobile app design ------- */
 
 /* ----- mobile app design ------- */
 
@@ -1607,8 +1904,7 @@ section#anroid-app {padding: 2rem 20px;}
 .full-bulb {border-radius: 50px;}
 .slide-phone img{width:38%;}
 /*digital-marketing*/
-.digital-web.web-d-type {
-    width: 28%;}
+.digital-web.web-d-type { width: 28%;}
 .digital-marketing.service_baner .service_block h1 {
     padding: 1rem 0rem 1rem 0rem;
 }
@@ -1616,7 +1912,46 @@ section#anroid-app {padding: 2rem 20px;}
 .business-baner.service_baner .service_block {padding: 6rem 0rem 3rem;}
 .busi-info h2 { font-size: 34px;}
 .busi-info {  padding: 5%;}
+/* blockchain page */
+#block-baner,#network,#application-block,#industries-blockchain,#grid-gallery,#timeline-section {
+    padding-top: 3rem;
+    padding-bottom:3rem;
+}
+ #first-letter { font-size: 17px; padding: 0px 10px 0px 45px;}
+.head h2 {  font-size: 36px;}
+#block-baner .element { bottom: 1rem;}
+#block-baner img{width:60%;}
+#block-baner .block { width: 50%;}
+#block-baner .block h1 {   font-size: 50px; }
+.curved-back { height: 100px; }
+#grid-gallery .gallery-links { column-gap: 3rem;}
+#grid-gallery .image-container { padding:0rem;}
+.gallery-links a { font-size:20px;	}
+#timeline li { min-width: 150px; }
+.curved-back img { margin-top: -6rem;}
+li.down .avatar { left: 140px;}
+.info p {  padding-bottom: 5rem;  font-size: 18px;}
+.list-item {font-size: 22px !important; margin: 1.5rem 1rem !important;width:45%;   }
+#tfeature-testimonial {padding: 0rem 10rem;}
+.tfeature_btn {margin-top: 75px;}
+.main.portfoilio h2{font-size:40px;line-height:55px;   padding-bottom:3rem;}
+/* e-commerce */
+.ecomm_circle {  height: 450px; width: 450px; padding:70px 60px;top:5px;}
+.ecomm_circle h2 { font-size: 36px;}
+/* ui-ux */
+.box-overlay h3 { font-size: 40px;}
+/* brand-identity */
+.ourdesign > div:first-of-type {padding: 3rem;}
+.designmeetsart > div > h3 { font-size: 70px;}
+/* training and internship */
+.w-culture {   top: 35%; left: 38%; height: 350px; width: 350px;}
+.over-text h3 { font-size: 100px;}
 
+/* ----- contact page------- */
+.contact_page h1 {font-size: 50px;}
+.contact_page h3 {font-size: 35px; }
+
+/* ----- end contact page------- */
 
 }
 
@@ -1624,22 +1959,18 @@ section#anroid-app {padding: 2rem 20px;}
 	:root {
     --main-pad: 0rem 8rem;
 }
-h1{
-    font-size:80px;
+h1{font-size:80px;
  }
- h2{
-    font-size: 38px;
+h2{font-size: 38px;
  }
- h3{
-    font-size:22px;
+h3{ font-size:22px;
  }
- h4{
-    font-size:18px;
+h4{font-size:18px;
  }
- p{
-   font-size: 15px; 
+p{
+ font-size: 15px;
  }
- .banner-slider .slick-arrow.slick-next {
+.banner-slider .slick-arrow.slick-next {
     right: 8rem;
 }
 .banner-slider .slick-arrow.slick-prev {
@@ -1656,7 +1987,7 @@ h1{
 .read-btn {
     font-size: 18px;
 }
- .ele-go {
+.ele-go {
     right: 0rem;
 }
 .banner-home>div {
@@ -1684,9 +2015,9 @@ h1{
 .mag-cont>div {
     padding: 1.5rem;
   }
-  .mag-cont {
+.mag-cont {
     padding-right: 8rem;
-  }
+}
 .st-growing {
     padding: 5rem 8rem 0rem 0rem;
 }
@@ -1762,9 +2093,9 @@ h1{
 }
 .box:hover > .hid-box{
     top: -100%;
-  }
-  #leverage .data-inside {
-    height: 350px;
+}
+ #leverage .data-inside {
+    /* height: 350px; */
 }
 #testimonial{
     padding-top:2rem;
@@ -1772,7 +2103,6 @@ h1{
 .services-butn {
     padding-top: 3rem;
 }
-
 /* ------  who-we-are page ------ */
 .our_team p { padding: 2rem 2rem;}
 /* ------ End  who-we-are page ------ */
@@ -1790,5 +2120,65 @@ h1{
 .web-d-type h2 { font-size: 26px;  padding: 1.5rem 0rem;}
 /* ----- end website design ------- */
 
+/* ----- mobile app design ------- */
+.full_service_baner img { width: 50%;}
+.text_info {padding: 50px 4rem;}
+.text_info p { padding: 1rem 0rem;}
+.text_info ul li {padding-left: 15px;color: #787878;}
+#border_block, #credible {    padding-top: 3rem; padding-bottom: 3rem;}
+.text_info h2 {   font-size: 32px;}
+.text_info ul li {font-size: 15px;}
+#mobile-app {   padding: var(--main-pad);   padding-top: 4rem;   padding-bottom: 2rem;}
+.inner-cre {  padding: 20px 0px;   margin: 0px 0px 20px;}
+.data-credible {  padding: 10px 20px;}
+.credency h2 {  padding: 4rem; font-size: 32px;}
+.app_build_block .apps h2 {font-size: 30px;}
 
+/*mobile-app-development*/
+.first-part {padding: 17rem 14rem 16rem 3rem;background-position: center;}
+.first-part h1 {font-size: 50px;line-height: 68px;}
+#application h2 { font-size: 34px; width: 70%;}
+.for-flex { justify-content: space-between;padding-top: 60px;}
+.block-data h3 {line-height: 23px;padding: 30px 0px 14px; width: 90%;}
+.block-data { width: 20%; padding: 20px; margin: 30px 20px; height: 30vh;}
+#application {padding: 8rem 0px 4rem;}
+.gif-part {top: 18%;}
+.ban-file {padding: 0rem 0rem 0rem 8rem;}
+#banner-head { margin-bottom: 150px;}
+#banner-head { height: auto;}
+.faq-section-full.container {  padding: 0px 30px 70px;}
+.round p { padding: 16px ;margin-left: -52px;}
+
+/* digital-marketing */
+.digital-marketing.web-dev-list { column-gap: 2rem;}
+
+/* business-consultation */
+.busi-info h2 { font-size: 38px;}
+.busi-info {  padding: 5%;}
+
+/* ui-ux */
+.box-overlay h3 { font-size: 50px;}
+
+/* brand-identity */
+.ourdesign > div:first-of-type {
+    padding: 5rem;
+}
+/*blockchain page*/
+#block-baner .block h1 { font-size: 48px;}
+#block-baner { padding-top: 0rem;}
+#block-baner .block {width: 45%;}
+.main.portfoilio h2 { padding-bottom:3rem;}
+#first-letter {font-size: 16px;padding: 0px 10px 0px 45px;}
+#timeline li {min-width: 170px;}
+/* training and internship */
+.w-culture {   top: 35%; left: 38%; height: 350px; width: 350px;}
+
+/* ----- contact page------- */
+.contact_page h1 { font-size: 50px;}
+.contact_page h3 {font-size: 35px; }
+
+/* ----- end contact page------- */
+/* e-commerce */
+.ecomm_circle { height: 500px; width: 500px; padding: 80px;}
+.ecomm_circle h2 {font-size: 30px;}
 }

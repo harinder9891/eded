@@ -21,9 +21,9 @@
           <input type="checkbox" id="drop-1" />
           <ul>
             <li> <a href="{{url('web-d')}}" >Website Developments</a></li>
-            <li> <a href="{{url('mobile_app_development')}}" >Mobile App Development</a> </li>
+            <li> <a href="{{url('mobile-app-development-services')}}" >Mobile App Development</a> </li>
             <li> <a href="{{url('ui-and-ux-design-services')}}" >UI/UX Design</a></li>
-            <li> <a href="{{url('e-commerce-website-design-and-development-services')}}">E-commerce</a></li>
+            <li> <a href="{{url('e-commerce-services')}}">E-commerce</a></li>
             <li> <a href="{{url('digital-marketing-services')}}" >Digital Marketing</a></li>
             <li> <a href="{{url('bussiness-consultation-services')}}" >Business Consultation</a></li>
             <li> <a href="{{url('training-and-internship')}}" >Training and Internship</a></li>

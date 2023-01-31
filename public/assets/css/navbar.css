@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+body{
+    overflow-x: hidden;
+}
+
 :root {
     --main-pad: 0rem 10rem;
     --black: #303030;
@@ -42,18 +52,10 @@ h2 span{
     color:var(--orange);     font-weight: 600;
 }
 .active-nav {
-    color: var(--orange);
-    font-weight: 600 !important;
+    color: var(--orange) !important;
+    font-weight: 500 !important;
 }
 
-  *{
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
-}
-body{
-    overflow-x: hidden;
-}
 header ul.nav-links {
     margin-bottom: 0;
 }
@@ -155,7 +157,6 @@ li > a:only-child:after {/* content: ''; */}
     padding: 0.4rem 0.8rem;
     font-size: 1rem;
     cursor: pointer;
-    margin-left: 25px;
 }
 .join2-button:hover {
     color: #fff;

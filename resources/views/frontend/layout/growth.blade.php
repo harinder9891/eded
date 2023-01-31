@@ -62,7 +62,7 @@
 
             </div>
             <div class="services-butn">
-              <a href="/blockchain-development-services"> Explore More </a>
+              <a href="{{url('blockchain-development-services')}}"> Explore More </a>
             </div>
           </div>
           <div>
@@ -123,7 +123,7 @@
 
             </div>
             <div class="services-butn">
-              <a href="mobile_app_development.html">Explore More </a>
+              <a href="{{url('mobile-app-development-services')}}">Explore More </a>
             </div>
           </div>
 
@@ -185,7 +185,7 @@
 
             </div>
             <div class="services-butn">
-              <a href="/website-development-services"> Explore More </a>
+              <a href="{{url('web-d')}}"> Explore More </a>
             </div>
           </div>
           <div>
@@ -246,7 +246,7 @@
 
             </div>
             <div class="services-butn">
-              <a href="/ui-ux-design-services"> Explore More </a>
+              <a href="{{url('ui-and-ux-design-services')}}"> Explore More </a>
             </div>
           </div>
           <div>
@@ -301,7 +301,7 @@
 
             </div>
             <div class="services-butn">
-              <a href="/brand-identity-design"> Explore More </a>
+              <a href="{{url('brand-identity-design')}}"> Explore More </a>
             </div>
           </div>
        
@@ -362,7 +362,7 @@
               </div>
             </div>
             <div class="services-butn">
-              <a href="/best-digital-marketing-services"> Explore More </a>
+              <a href="{{url('digital-marketing-services')}}"> Explore More </a>
             </div>
           </div>
 

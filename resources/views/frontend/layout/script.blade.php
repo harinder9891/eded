@@ -66,6 +66,23 @@ hamburger.addEventListener('click', () => {
                 <!-----------------end of portfolio part----------------->
     
 <script>
+            
+            filterSelection("all")
+            function filterSelection(c) {
+              var x, i;
+              x = document.getElementsByClassName("column-block");
+              if (c == "all") c = "";
+              for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+              }
+            }
+            
+        
+            </script>
+                <!-----------------end of portfolio part----------------->
+    
+<script>
 
 $(document).ready(function () {
   count = 1;

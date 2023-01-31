@@ -25,49 +25,62 @@ class IndexController extends Controller
   
     public function portfolio()
     {
-        // $latestCourse = Course::latest()->limit(12)->where('status','1')->get();
-        // $course = Course::where('status','1')->get();
-        // $popular = RelatedClass::where('type','popular')->get();
-        // $categories = Category::where('status','1')->get();
-        // $categoriesWithCourses = Category::with('course')->paginate(20);
+        
         return view('frontend.portfolio');
     }
   
     public function webpage()
     {
-        // $latestCourse = Course::latest()->limit(12)->where('status','1')->get();
-        // $course = Course::where('status','1')->get();
-        // $popular = RelatedClass::where('type','popular')->get();
-        // $categories = Category::where('status','1')->get();
-        // $categoriesWithCourses = Category::with('course')->paginate(20);
         return view('frontend.web-d');
     }
     public function bc()
     {
-        // $latestCourse = Course::latest()->limit(12)->where('status','1')->get();
-        // $course = Course::where('status','1')->get();
-        // $popular = RelatedClass::where('type','popular')->get();
-        // $categories = Category::where('status','1')->get();
-        // $categoriesWithCourses = Category::with('course')->paginate(20);
+    
         return view('frontend.business-consultation');
     }
     public function digitmarket()
     {
-        // $latestCourse = Course::latest()->limit(12)->where('status','1')->get();
-        // $course = Course::where('status','1')->get();
-        // $popular = RelatedClass::where('type','popular')->get();
-        // $categories = Category::where('status','1')->get();
-        // $categoriesWithCourses = Category::with('course')->paginate(20);
+       
         return view('frontend.digital-marketing');
     }
     public function whoweare()
     {
-        // $latestCourse = Course::latest()->limit(12)->where('status','1')->get();
-        // $course = Course::where('status','1')->get();
-        // $popular = RelatedClass::where('type','popular')->get();
-        // $categories = Category::where('status','1')->get();
-        // $categoriesWithCourses = Category::with('course')->paginate(20);
+        
         return view('frontend.who-we-are');
+    }
+    
+    public function mobappdev()
+    {
+       
+        return view('frontend.mobile-app-dev');
+    }
+    
+    public function ecommserv()
+    {
+        
+        return view('frontend.ecomm');
+    }
+    public function uiux()
+    {
+        
+        return view('frontend.ui-ux');
+    }
+    public function blockchain()
+    {
+        
+        return view('frontend.blockchain');
+    }
+    
+    public function trndint()
+    {
+        
+        return view('frontend.trndint');
+    }
+    
+    public function brandiddesign()
+    {
+        
+        return view('frontend.brandiddesign');
     }
 
     public function savemaildata(Request $request){
